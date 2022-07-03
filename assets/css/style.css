@@ -1,0 +1,86 @@
+/* Make page stretch at least 100vh to avoid whitespace below footer, 
+code taken from https://forum.freecodecamp.org/t/footer-white-space-below/191360/4 */
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* allows the content to grow but not shrink */
+.game-box {
+    flex: 1 0 auto;
+    height: 500px;
+  }
+
+/* add background image without affecting children
+  code taken from: https://css-tricks.com/snippets/css/transparent-background-images/
+*/
+body::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url('../images/background-image.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    z-index: -1;
+}
+
+/* Add size to game area, add display to allow items to display on top of each other,
+   code technique from https://www.geeksforgeeks.org/how-to-set-space-between-the-flexbox/ 
+*/
+
+.game-box {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* header styling */
+
+.head-box {
+    text-align: center;
+}
+
+h1 {
+    color: black;
+}
+
+.head-box img {
+    height: 3rem;
+    width: 3rem;
+}
+
+footer {
+    height: 100px;
+}
+
+ footer li {
+    display: inline;
+}
+
+footer i {
+    font-size: 200%;
+    margin: 5%;
+    padding: 5%;
+    color: #1b1c1c;
+}
+
+ .foot-social {
+    float: left;
+}
+
+.foot-contact {
+    float: right;
+    text-align: center;
+}
+
+header a:hover{
+    color: pink;
+}
