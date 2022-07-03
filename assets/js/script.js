@@ -16,10 +16,20 @@ document.addEventListener("DOMContentLoaded", function () {
 /**
  * Create a keyboard letters using an Array that can be indexed through
  */
+ const letters = [
+    'Q','W','E','R','T','Y','U','I','O',
+    'P','A','S','D','F','G','H','J','K','L',
+    'ENTER','Z','X','C','V','B','N','M','«',
+]
 
 /**
  * Create Keyboard buttons using document.createElement()
  */
+letters.forEach(letter => {
+    const keyElement = document.createElement('key')
+    keyElement.textContent = letter
+    KeyboardEvent.append(keyElement)
+})
 
 /**
  * Function for keyboard tile to be clicked
