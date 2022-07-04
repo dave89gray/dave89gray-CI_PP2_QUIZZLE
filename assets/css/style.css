@@ -51,7 +51,6 @@ h1 {
 }
 
 /* Tile box style */
-
 .tiles-box {
     width: 500px;
     margin-bottom: 25px;
@@ -91,4 +90,23 @@ footer i {
 .foot-contact > a {
     color: white;
     text-decoration: none;
+}
+
+/* Keyboard Styling */
+
+.keyboard-box button {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+}
+
+#ENTER,
+#« {
+    width: 65px;
+}
+
+#A {
+    margin-left: 25px;
 }
