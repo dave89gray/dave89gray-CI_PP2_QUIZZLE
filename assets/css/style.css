@@ -15,6 +15,7 @@
 h1 {
     font-size: 5.4rem;
     color: #36454F;
+    margin-bottom: 5rem;
 }
 
 /* Make game full with of of screen and center items */
@@ -33,3 +34,83 @@ h1 {
     width: 100%;
 }
 
+/* Made flex so items can be stacked vertically */
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Made flex so items can be stacked vertically and centering */
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Style the buttons */
+.home-button {
+    font-size: 2rem;
+    padding: 1rem 0 1rem 0;
+    width: 15rem;
+    text-align: center;
+    border: 0.2rem solid #36454F;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    color: #36454F;
+    background-color: white;
+}
+
+.home-button:hover {
+    cursor: pointer;
+    box-shadow: 0 1rem 1rem #36454F;
+    transform: translate(0.25rem);
+    transition: transform 0.5s;
+}
+
+/* Footer Styling, maybe take the footer out? */
+footer {
+    height: 10rem;
+}
+
+ footer ul {
+    display: inline;
+    display: flex;
+    align-items: center;
+}
+
+footer li {
+    margin: 10%;
+}
+
+footer i {
+    font-size: 300%;
+    margin: 5%;
+    padding: 5%;
+    color: #1b1c1c;
+}
+
+ .foot-social {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    float: left;
+}
+
+.foot-contact {
+    float: right;
+    align-items: center;
+    font-size: 2rem;
+    text-decoration: none;
+}
