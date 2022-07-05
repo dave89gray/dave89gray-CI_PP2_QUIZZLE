@@ -5,7 +5,7 @@
 
     // Default starting tile
     let currentTile = 0;
-    
+
     /**
      * This function will reset the game and load the keyboard
      * and tiles for user guesses
@@ -65,24 +65,39 @@
     });
 
     /**
+     * Function to add a letter to the tile row
+     */
+    let addLetter = (letter) => {
+        //If statement added for if these conditions are met then a letter can be added otherwise not
+        if (currentTile < 4 && startingRow < 5) {
+            console.log('userInput-' + startingRow + '-tile-' + currentTile);
+            let tile = document.getElementById('userInput-' + startingRow + '-tile-' + currentTile);
+            tile.textContent = letter;
+            tile.setAttribute('data', letter);
+            currentTile++;
+            userInput = [startingRow][currentTile] = letter;
+        }
+    }
+
+    /**
      * Function for keyboard tile to be clicked, taken from the EventListener above,
      * with an if loop in there
      */
     let handleMouseClick = (letter) => {
         console.log('clicked', letter);
-        addLetter(letter);
-    }
 
-    /**
-     * Function to add a letter to the tile row
-     */ 
-    let addLetter = (letter) => {
-        console.log('userInput-' + startingRow + '-tile-' + currentTile);
-        let tile = document.getElementById('userInput-' + startingRow + '-tile-' + currentTile);
-        tile.textContent = letter;
-        tile.setAttribute('data', letter);
-        currentTile++;
-        userInput = [startingRow][currentTile] = letter;
+        //Code for if the user guess is not « or ENTER then letter to be added
+        if (letter === '«') {
+            console.log('delete letter');
+            return
+        }
+
+        if (letter === 'ENTER') {
+            console.log('check row');
+            return
+        }
+
+        addLetter(letter);
     }
 
     /**
@@ -93,4 +108,3 @@
      * Function to flip tile
      */
 })();
-
