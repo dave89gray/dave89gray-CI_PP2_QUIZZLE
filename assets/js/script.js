@@ -7,8 +7,8 @@
     let currentTile = 0;
 
     /**
-     * This function will reset the game and load the keyboard
-     * and tiles for user guesses
+     * This function will reset the game and load the keyboard,
+     * tiles for user guesses and words to be chosen from
      */
     document.addEventListener("DOMContentLoaded", function () {
 
@@ -20,6 +20,14 @@
             'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P',
             'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L',
             'ENTER', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', '«',
+        ];
+
+        // Array of words to be selected from
+        let wordle = [
+            'BEST', 'BORE', 'GOOD', 'GIMP', 'NOTE', 'SEER', 'PORK', 'BOLT', 'TUBE', 'EPIC', 'FORE', 'BASS', 'HUSH',
+            'JUST', 'PART', 'PASS', 'BLUE', 'PINK', 'DRAG', 'MIND', 'PART', 'GLOW', 'URGE', 'DOOR', 'BUST', 'FAKE',
+            'DART', 'VIEW', 'SCUD', 'HOLD', 'WHIZ', 'FROG', 'BIKE', 'VASE', 'MANY', 'BOAT', 'NEAR', 'LONE', 'SPIN',
+            'GOAT', 'GOAL', 'YAWN', 'FIVE', 'DARN', 'BEER', 'RICH', 'BALM', 'COAX', 'PIPE', 'TWIG', 'TOUR', 'FAIR',
         ];
 
         /**
