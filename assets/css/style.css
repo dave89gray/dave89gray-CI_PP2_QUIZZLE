@@ -2,6 +2,10 @@
    Code technique from Pnsadeghy @ https://stackoverflow.com/questions/12609110/responsive-css-background-images
 */
 
+* {
+    font-family: arial;
+}
+
 body {
     background-image: url(../images/background-image.jpg);
     background-repeat:no-repeat;

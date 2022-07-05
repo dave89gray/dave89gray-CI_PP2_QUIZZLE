@@ -28,7 +28,7 @@
          */
         letters.forEach(letter => {
             let buttonElement = document.createElement('button');
-            buttonElement.textContent = letter;
+            buttonElement.textContent = letter
             buttonElement.setAttribute('id', letter);
             buttonElement.addEventListener('click', () => handleMouseClick(letter));
             keyboard.append(buttonElement);
@@ -54,9 +54,9 @@
             /**
              * Create individual tile and append it to the row created above
              */
-            userInput.forEach((attempt, attemptIndex) => {
+            userInput.forEach((_attempt, attemptIndex) => {
                 let tileElement = document.createElement('div');
-                tileElement.setAttribute('id', 'userInput-' + '-tile-' + attempt[attemptIndex]);
+                tileElement.setAttribute('id', 'userInput-' + userInputIndex + '-tile-' + attemptIndex);
                 tileElement.classList.add('tile');
                 attemptRowElement.append(tileElement);
             })
@@ -74,13 +74,15 @@
     }
 
     /**
-     * Function add a letter to the tile row
+     * Function to add a letter to the tile row
      */ 
-    let addLetter = (key) => {
-
+    let addLetter = (letter) => {
+        console.log('userInput-' + startingRow + '-tile-' + currentTile);
         let tile = document.getElementById('userInput-' + startingRow + '-tile-' + currentTile);
-        tile.textContent = key;
+        tile.textContent = letter;
+        tile.setAttribute('data', letter);
         currentTile++;
+        userInput = [startingRow][currentTile] = letter;
     }
 
     /**
