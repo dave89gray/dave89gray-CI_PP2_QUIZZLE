@@ -138,3 +138,8 @@ footer i {
     text-decoration: none;
 }
 
+/* Response Message styling */
+.response-message {
+    height: 30px;
+    margin-bottom: 20px;
+}

@@ -106,12 +106,23 @@ function playGame() {
     }
 
     let checkRow = () => {
-
+        
+        /**
+        const attempt = userInput[startingRow].join('');
+        */
         if (currentTile === 5) {
-            let attempt = userInputs[startingRow].join('');
-            console.log('guess is ' + attempt, 'wordle is ' + correctWord);
+
         }
+        let responseMessage = document.getElementById("response");
+        response.textContent = 'Well Done! Join us tomorrow for a new game!';
+       
+       /**
+        if (correctWord === attempt) {
+
+        }
+         */
     }
+
 
     /**
      * Function for keyboard tile to be clicked, taken from the EventListener above,
@@ -128,7 +139,6 @@ function playGame() {
 
         if (letter === 'ENTER') {
             checkRow();
-            console.log('clicked' + correctWord);
             return
         }
 
