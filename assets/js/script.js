@@ -73,9 +73,24 @@
             console.log('userInput-' + startingRow + '-tile-' + currentTile);
             let tile = document.getElementById('userInput-' + startingRow + '-tile-' + currentTile);
             tile.textContent = letter;
-            tile.setAttribute('data', letter);
+            tile.setAttribute('data', letter); //Attribute so the tile can be styled
             currentTile++;
-            userInput = [startingRow][currentTile] = letter;
+            userInputs = [startingRow][currentTile] = letter;
+        }
+    }
+
+    /**
+     * Function remove a letter from the Tile row
+     */
+    let removeLetter = () => {
+
+        //if statment for removing userInput if there is a guess to be removed and reset to empty
+        if (currentTile > 0) {
+            currentTile--
+            let tile = document.getElementById('userInput-' + startingRow + '-tile-' + currentTile);
+            tile.textContent = '';
+            userInputs = [startingRow][currentTile] = '';
+            tile.setAttribute('data', '');
         }
     }
 
@@ -88,7 +103,7 @@
 
         //Code for if the user guess is not « or ENTER then letter to be added
         if (letter === '«') {
-            console.log('delete letter');
+            removeLetter() //Calls the removeLetter function
             return
         }
 
@@ -99,6 +114,7 @@
 
         addLetter(letter);
     }
+
 
     /**
      * Function to add colour to a key
