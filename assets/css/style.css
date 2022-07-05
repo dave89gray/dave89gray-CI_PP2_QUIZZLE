@@ -1,0 +1,35 @@
+
+/* Set the root style */
+:root {
+    background-color: hsl(0, 0%, 83%);
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 5.4rem;
+    color: #36454F;
+}
+
+/* Make game full with of of screen and center items */
+.game-container {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+/* Make children 100% wide so we can keep things centered horizontally */
+.game-container > * {
+    width: 100%;
+}
+
