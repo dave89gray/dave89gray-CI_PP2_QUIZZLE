@@ -1,7 +1,3 @@
-const question = document.getElementById('question');
-const options = Array.from(document.getElementsByClassName('answer-selection'));
-
-
 let questions = [
     {
         Question: 'What is the capital city of Scotalnd?',
@@ -83,3 +79,18 @@ let questions = [
         answer: 1,
     }
 ]
+
+const question = document.getElementById('question');
+const options = Array.from(document.getElementsByClassName('answer-selection'));
+
+const correct_bonus = 1; //how much is a correct answer worth
+const max_questions = 3; //maximum attempts from the user
+
+playGame = () => {
+    questionCounter = 0;
+    score = 0; //set the score
+    availableQuestions = [...questions]; //Spread operator to get the questions
+    console.log(availableQuestions);
+}
+
+playGame();
