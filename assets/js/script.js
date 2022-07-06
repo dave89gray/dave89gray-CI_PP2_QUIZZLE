@@ -79,11 +79,11 @@ let questions = [{
     }
 ];
 
-const question = document.getElementById('question');
-const options = Array.from(document.getElementsByClassName('answer-selection'));
+let question = document.getElementById('question');
+let options = Array.from(document.getElementsByClassName('answer-selection'));
 
-const correct_bonus = 1; //how much is a correct answer worth
-const max_questions = 3; //maximum attempts from the user
+let correct_bonus = 1; //how much is a correct answer worth
+let max_questions = 3; //maximum attempts from the user
 
 // set some variables to be used
 let currentQuestion = {};
@@ -107,14 +107,14 @@ playGame = () => {
  */
 newQuestions = () => {
     questionCounter++;
-    const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+    let questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex]; // Index through questions array
     question.innerText = currentQuestion.question; // Set the H2 elements innerText
 
 
     //Iterate through the answer options from the array using the dataset and insert into the paragraph
     options.forEach((choice) => {
-        const number = choice.dataset['number']; //Get the answer option using the dataset number
+        let number = choice.dataset['number']; //Get the answer option using the dataset number
         choice.innerText = currentQuestion['choice' + number];
     });
 
@@ -122,15 +122,36 @@ newQuestions = () => {
     acceptAnswer = true;
 }
 
+/**
+ * Function so that when the user has selected the answer, 'click' is listened for,
+ * the answer logged and the next question will be presented
+ */
 options.forEach((choice) => {
     choice.addEventListener('click', (e) => {
         if (!acceptAnswer) return;
 
         acceptAnswer = false;
-        const selectedAnswer = e.target;
-        const answer = selectedAnswer.dataset['number'];
-        console.log(answer == currentQuestion.answer);
-        newQuestions(); //get the next question once answered
+        let selectedAnswer = e.target;
+        let answer = selectedAnswer.dataset['number'];
+
+        //Setting the default to 'incorrect', check to see if it is correct and then update
+        let applyClass = 'incorrect';
+        if (answer == currentQuestion.answer) { //'==' as one is a string and the other is a number.
+            applyClass = "correct";
+        }
+        //console.log(applyClass);
+        
+        // Set the div class to apply color green to the box if the answer is correct
+        selectedAnswer.parentElement.classList.add(applyClass);
+        console.log(applyClass);
+        /* 
+        Set the div class to apply red color to the box if the answer is correct and wait 1 second
+        so that it is visible.
+        */ 
+        setTimeout(() => {
+            selectedAnswer.parentElement.classList.remove(applyClass);
+            newQuestions(); //get the next question once answered
+        }, 1000);
     });
 });
 
