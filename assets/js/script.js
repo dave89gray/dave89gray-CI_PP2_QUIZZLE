@@ -1,11 +1,10 @@
-let questions = [
-    {
-        question: 'What is the capital city of Scotalnd?',
+let questions = [{
+        question: 'What is the capital city of Scotlnd?',
         choice1: 'Aberdeen',
         choice2: 'Glasgow',
         choice3: 'Edinburgh',
         choice4: 'Newcastle',
-        answer: 2,
+        answer: 3,
     },
     {
         question: 'Which two colours are featured on the saltire - the flag of Scotland?',
@@ -125,13 +124,13 @@ newQuestions = () => {
 
 options.forEach((choice) => {
     choice.addEventListener('click', (e) => {
-        if (!acceptAnswer) 
-        return;
-        
+        if (!acceptAnswer) return;
+
         acceptAnswer = false;
         const selectedAnswer = e.target;
         const answer = selectedAnswer.dataset['number'];
-        newQuestions();
+        console.log(answer == currentQuestion.answer);
+        newQuestions(); //get the next question once answered
     });
 });
 
