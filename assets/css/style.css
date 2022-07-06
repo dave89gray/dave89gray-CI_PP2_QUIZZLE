@@ -1,10 +1,3 @@
-
-/* Set the root style */
-:root {
-    background-color: hsl(0, 0%, 83%);
-    font-size: 62.5%;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -12,10 +5,21 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: hsl(0, 0%, 83%);
+}
+
 h1 {
-    font-size: 5.4rem;
+    font-size: 5em;
     color: #36454F;
+    justify-content: center;
     margin-bottom: 5rem;
+}
+
+h2 {
+    font-size: 3em;
+    color: #36454F;
+    margin-bottom: 3rem;
 }
 
 /* Make game full with of of screen and center items */
@@ -29,8 +33,8 @@ h1 {
     margin: 0 auto;
 }
 
-/* Make children 100% wide so we can keep things centered horizontally */
-.game-container > * {
+/* Make children 100% wide so content is centered horizontally */
+.game-container>* {
     width: 100%;
 }
 
@@ -60,7 +64,7 @@ h1 {
 
 /* Style the buttons */
 .home-button {
-    font-size: 2rem;
+    font-size: 1rem;
     padding: 1rem 0 1rem 0;
     width: 15rem;
     text-align: center;
@@ -74,17 +78,54 @@ h1 {
 
 .home-button:hover {
     cursor: pointer;
-    box-shadow: 0 1rem 1rem #36454F;
+    box-shadow: 0 0.5rem 2rem #36454F;
     transform: translate(0.25rem);
     transition: transform 0.5s;
 }
 
-/* Footer Styling, maybe take the footer out? */
-footer {
-    height: 10rem;
+/* Style the game page */
+.game-page {
+    background-color: white;
 }
 
- footer ul {
+/* Style the answer options box */
+.answer-options {
+    display: flex;
+    margin-bottom: 1rem;
+    width: 50%;
+    font-size: 1rem;
+    border: 0.2rem solid #36454F;
+    border-radius: 0.5rem;
+    background-color: white;
+}
+
+/* Use same hover style as the buttons for consistency */
+.answer-options:hover {
+    cursor: pointer;
+    box-shadow: 0 0.5rem 2rem #36454F;
+    transform: translate(0.25rem);
+    transition: transform 0.5s;
+}
+
+.answer-option {
+    padding: 1rem 2rem;
+    background-color: #36454F;
+    color: white;
+}
+
+.answer-selection {
+    padding: 1rem 1.5rem;
+    background-color: white;
+    color: #36454F;
+    width: 100%;
+}
+
+/* Footer Styling, maybe take the footer out? */
+footer {
+    height: 7.5rem;
+}
+
+footer ul {
     display: inline;
     display: flex;
     align-items: center;
@@ -95,13 +136,13 @@ footer li {
 }
 
 footer i {
-    font-size: 300%;
-    margin: 5%;
-    padding: 5%;
+    font-size: 200%;
+    margin: 10%;
+    padding: 10%;
     color: #1b1c1c;
 }
 
- .foot-social {
+.foot-social {
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -111,6 +152,6 @@ footer i {
 .foot-contact {
     float: right;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-decoration: none;
 }
