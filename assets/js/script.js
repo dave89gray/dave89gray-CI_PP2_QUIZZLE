@@ -114,7 +114,7 @@ newQuestions = () => {
 
 
     //Iterate through the answer options from the array using the dataset and insert into the paragraph
-    options.forEach((choice) =>{
+    options.forEach((choice) => {
         const number = choice.dataset['number']; //Get the answer option using the dataset number
         choice.innerText = currentQuestion['choice' + number];
     });
@@ -125,12 +125,12 @@ newQuestions = () => {
 
 options.forEach((choice) => {
     choice.addEventListener('click', (e) => {
-        if (acceptAnswer) 
+        if (!acceptAnswer) 
         return;
         
         acceptAnswer = false;
         const selectedAnswer = e.target;
-        const answer = selectedAnswer.dataset[Number];
+        const answer = selectedAnswer.dataset['number'];
         newQuestions();
     });
 });
