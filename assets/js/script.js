@@ -1,5 +1,5 @@
 let questions = [{
-        question: 'What is the capital city of Scotlnd?',
+        question: 'What is the capital city of Scotland?',
         choice1: 'Aberdeen',
         choice2: 'Glasgow',
         choice3: 'Edinburgh',
@@ -23,7 +23,7 @@ let questions = [{
         answer: 1,
     },
     {
-        question: 'Which train station in scotland is named after a novel by Sir Walter Scott?',
+        question: 'Which train station in Scotland is named after a novel by Sir Walter Scott?',
         choice1: 'Edinburgh Waverly',
         choice2: 'Glenfinnan Railway Station',
         choice3: 'Bridge of Orchy',
@@ -38,7 +38,7 @@ let questions = [{
         answer: 3,
     },
     {
-        question: '"Uisge Beatha” is the Gaelic word for whisky. What does it literally mean?',
+        question: '"Uisge Beatha” is the Gaelic word for whiskey. What does it literally mean?',
         choice1: 'Water of life',
         choice2: 'Good health',
         choice3: 'Spirit of Scotland',

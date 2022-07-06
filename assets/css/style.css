@@ -16,14 +16,15 @@ body {
 
 h1 {
     font-size: 5em;
-    color: black;
+    color: #005EB8;
     justify-content: center;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     text-decoration: none;
+    background-color: #FBF7F5
 }
 
 h2 {
-    font-size: 5em;
+    font-size: 4em;
     color: #005EB8;
     margin-bottom: 2rem;
     justify-content: center;
@@ -33,15 +34,13 @@ h2 {
 h3 {
     font-size: 2em;
     color: #005EB8;
-    margin-bottom: 2rem;
-    justify-content: center;
+    margin-bottom: 1rem;
 }
 
 h4 {
     font-size: 2em;
     color: #005EB8;
-    margin-bottom: 3rem;
-    justify-content: center;
+    margin-bottom: 1rem;
 }
 
 /* Make game full with of of screen and center items */
@@ -96,7 +95,7 @@ h4 {
     margin-bottom: 2rem;
     text-decoration: none;
     color: #005EB8;
-    background-color: white;
+    background-color: #FBF7F5;
 }
 
 .home-button:hover {
@@ -108,7 +107,7 @@ h4 {
 
 /* Style the game page */
 #game-page {
-    background-color: white;
+    background-color: #FBF7F5;
     border-radius: 5rem;
 }
 
@@ -141,7 +140,7 @@ h4 {
 
 .answer-selection {
     padding: 1rem 1.5rem;
-    background-color: white;
+    background-color: #FBF7F5;
     color: #005EB8;
     width: 100%;
 }
@@ -206,23 +205,14 @@ footer i {
 /* Add styling to the game information divs */
 #game-info {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
+.info-text {
+    text-align: center;
+    font-size: 2rem;
+}
 
-/*
-<div id="game-info">
-<div id="info-content">
-    <p class="info-text">
-        Question
-    </p>
-    <h2 class="info-internal" id="counter">1/10</h2>
-</div>
-<div id="info-content">
-    <p class="info-text">
-        Question
-    </p>
-    <h2 class="info-internal" id="score">0</h2>
-</div>
-</div>
-*/
+.info-internal {
+    text-align: center;
+}
