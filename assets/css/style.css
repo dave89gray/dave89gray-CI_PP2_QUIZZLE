@@ -5,19 +5,25 @@
     box-sizing: border-box;
 }
 
+/* Add style for background image */
 body {
-    background-color: hsl(0, 0%, 83%);
+    background: url("../images/background_image.jpeg") no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 h1 {
     font-size: 5em;
-    color: #36454F;
+    color: black;
     justify-content: center;
     margin-bottom: 5rem;
+    text-decoration: none;
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 2em;
     color: #36454F;
     margin-bottom: 3rem;
 }
@@ -29,7 +35,8 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 80rem;
+    max-width: 70rem;
+    padding: 1rem;
     margin: 0 auto;
 }
 
@@ -78,14 +85,19 @@ h2 {
 
 .home-button:hover {
     cursor: pointer;
-    box-shadow: 0 0.5rem 2rem #36454F;
+    box-shadow: 0 0.5rem 2rem #005EB8;
     transform: translate(0.25rem);
     transition: transform 0.5s;
 }
 
 /* Style the game page */
-.game-page {
+#game-page {
     background-color: white;
+    border-radius: 5rem;
+}
+
+#game-page > * {
+    color:  #005EB8;
 }
 
 /* Style the answer options box */
@@ -94,7 +106,7 @@ h2 {
     margin-bottom: 1rem;
     width: 50%;
     font-size: 1rem;
-    border: 0.2rem solid #36454F;
+    border: 0.2rem solid #005EB8;
     border-radius: 0.5rem;
     background-color: white;
 }
@@ -102,14 +114,14 @@ h2 {
 /* Use same hover style as the buttons for consistency */
 .answer-options:hover {
     cursor: pointer;
-    box-shadow: 0 0.5rem 2rem #36454F;
+    box-shadow: 0 0.5rem 2rem #005EB8;
     transform: translate(0.25rem);
     transition: transform 0.5s;
 }
 
 .answer-option {
     padding: 1rem 2rem;
-    background-color: #36454F;
+    background-color: #005EB8;
     color: white;
 }
 
