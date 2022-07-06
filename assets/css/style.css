@@ -75,11 +75,11 @@ h2 {
     padding: 1rem 0 1rem 0;
     width: 15rem;
     text-align: center;
-    border: 0.2rem solid #36454F;
+    border: 0.2rem solid #005EB8;
     border-radius: 1rem;
     margin-bottom: 2rem;
     text-decoration: none;
-    color: #36454F;
+    color: #005EB8;
     background-color: white;
 }
 
@@ -120,14 +120,18 @@ h2 {
 
 .answer-option {
     padding: 1rem 2rem;
-    color: blue;
+    color: #005EB8;
 }
 
 .answer-selection {
     padding: 1rem 1.5rem;
     background-color: white;
-    color: #36454F;
+    color: #005EB8;
     width: 100%;
+}
+
+p {
+    color: #005EB8;
 }
 
 /* Footer Styling, maybe take the footer out? */
