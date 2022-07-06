@@ -56,7 +56,7 @@ h4 {
 }
 
 /* Make children 100% wide so content is centered horizontally */
-.game-container>* {
+.game-container > * {
     width: 100%;
 }
 
@@ -203,9 +203,14 @@ footer i {
 }
 
 /* Add styling to the game information divs */
+/* #game-info has a bug in it and i cant get the items to separate */
 #game-info {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.info-items {
+    justify-content: space-between;
 }
 
 .info-text {

@@ -73,7 +73,7 @@ let questions = [{
         question: 'Logarithms were invented by which Scottish mathematician?',
         choice1: 'John Napier',
         choice2: 'James Clerk Maxwell',
-        choice3: 'James Gregory',
+        choice3: 'Paul Duncan',
         choice4: 'Graeme Lamb',
         answer: 1,
     }
@@ -81,9 +81,11 @@ let questions = [{
 
 let question = document.getElementById('question');
 let options = Array.from(document.getElementsByClassName('answer-selection'));
+let counter = document.getElementById('counter');
+let scoreNumber = document.getElementById('score');
 
-let correct_bonus = 1; //how much is a correct answer worth
-let max_questions = 3; //maximum attempts from the user
+let correct_bonus = 10; //how much is a correct answer worth
+let max_questions = 10; //maximum attempts from the user
 
 // set some variables to be used
 let currentQuestion = {};
@@ -107,6 +109,10 @@ playGame = () => {
  */
 newQuestions = () => {
     questionCounter++;
+    
+    //Update question tally using string concatenation
+    counter.innerText = `${questionCounter}/${max_questions}`;
+    
     let questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex]; // Index through questions array
     question.innerText = currentQuestion.question; // Set the H2 elements innerText
@@ -144,6 +150,12 @@ options.forEach((choice) => {
         // Set the div class to apply color green to the box if the answer is correct
         selectedAnswer.parentElement.classList.add(applyClass);
         console.log(applyClass);
+
+        // If the user guess is correct then increment by the bonus score
+        if(applyClass === 'correct') {
+            incrementScore(correct_bonus);
+        }
+
         /* 
         Set the div class to apply red color to the box if the answer is correct and wait 1 second
         so that it is visible.
@@ -154,5 +166,11 @@ options.forEach((choice) => {
         }, 1000);
     });
 });
+
+incrementScore = num => {
+    score += num;
+    scoreNumber.innerText = score;
+    console.log(incrementScore);
+};
 
 playGame();
