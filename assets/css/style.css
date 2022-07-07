@@ -237,3 +237,8 @@ footer i {
     background-color: #005EB8;
     width: 0%;
 }
+
+/* Style the results page */
+#endPage {
+    background-color: #FBF7F5;
+}

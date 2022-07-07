@@ -14,8 +14,14 @@
 <body>
     <!-- Div to hold the entire game -->
     <div class="game-container">
-        <div id="endPage" class="flex-center flex-column"=>
-            hello
+        <div id="endPage" class="flex-center flex-column">
+            <h4 id="finalScore">0</h4>
+            <form action="">
+                <input type="text" name="username" placeholder="Username...">
+                <button type="submit" class="home-button" id="saveScore" onclick="saveScore(event)"></button>
+            </form>
+            <a class="home-button" href="game.html">Play Again!</a>
+            <a class="home-button" href="index.html">Home</a>
         </div>
     </div>
 
