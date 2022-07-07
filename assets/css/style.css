@@ -206,11 +206,20 @@ footer i {
 /* #game-info has a bug in it and i cant get the items to separate */
 #game-info {
     display: flex;
-    justify-content: space-between;
 }
 
-.info-items {
-    justify-content: space-between;
+/*these have a bug and the score/question wont separate*/
+/*which i assume has something to do with the justify-content center of the parent*/
+.shift-left {
+    justify-content: end;
+    float: right;
+}
+
+/*these have a bug and the score/question wont separate*/
+/*which i assume has something to do with the justify-content center of the parent*/
+.shift-right {
+    justify-content: start;
+    float: right;
 }
 
 .info-text {
