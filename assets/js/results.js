@@ -44,6 +44,6 @@ saveScore = (e) => {
 
     // Update the storage with the higher scores using stringify to create the string
     localStorage.setItem('scoresLeaderboard', JSON.stringify(scoresLeaderboard));
-
+    
     console.log(scoresLeaderboard);
 };
