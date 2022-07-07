@@ -7,12 +7,12 @@ let questions = [{
         answer: 3,
     },
     {
-        question: 'Which two colours are featured on the saltire - the flag of Scotland?',
-        choice1: 'Red and white',
-        choice2: 'Green and white',
-        choice3: 'Black and white',
-        choice4: 'Blue and white',
-        answer: 4,
+        question: 'The English writer George Orwell wrote his novel 1984 when he was living on which island in Scotland?',
+        choice1: 'Iona',
+        choice2: 'Skye',
+        choice3: 'Jura',
+        choice4: 'Shetland',
+        answer: 3,
     },
     {
         question: 'What is the national animal of Scotland?',
