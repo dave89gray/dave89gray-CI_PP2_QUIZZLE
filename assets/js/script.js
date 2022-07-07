@@ -81,7 +81,7 @@ let questions = [{
 
 let question = document.getElementById('question');
 let options = Array.from(document.getElementsByClassName('answer-selection'));
-let counter = document.getElementById('counter');
+let progressNumber = document.getElementById('progressNumber');
 let scoreNumber = document.getElementById('score');
 
 let correct_bonus = 10; //how much is a correct answer worth
@@ -111,7 +111,7 @@ newQuestions = () => {
     questionCounter++;
     
     //Update question tally using string concatenation
-    counter.innerText = `${questionCounter}/${max_questions}`;
+    progressNumber.innerText = `Question ${questionCounter}/${max_questions}`;
     
     let questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex]; // Index through questions array
