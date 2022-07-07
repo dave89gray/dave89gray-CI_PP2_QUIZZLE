@@ -16,10 +16,10 @@ let questions = [{
     },
     {
         question: 'What is the national animal of Scotland?',
-        choice1: 'Unicorn',
+        choice1: 'Snake',
         choice2: 'Rabbit',
         choice3: 'Deer',
-        choice4: 'Snake',
+        choice4: 'Unicorn',
         answer: 1,
     },
     {
