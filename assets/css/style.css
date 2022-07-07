@@ -57,7 +57,7 @@ h4 {
 }
 
 /* Make children 100% wide so content is centered horizontally */
-.game-container > * {
+.game-container>* {
     width: 100%;
 }
 
@@ -112,8 +112,8 @@ h4 {
     border-radius: 5rem;
 }
 
-#game-page > * {
-    color:  #005EB8;
+#game-page>* {
+    color: #005EB8;
 }
 
 /* Style the answer options box */
@@ -191,7 +191,7 @@ footer i {
     background-color: green;
 }
 
-.correct > p {
+.correct>p {
     background-color: green;
 }
 
@@ -199,7 +199,7 @@ footer i {
     background-color: red;
 }
 
-.incorrect > p {
+.incorrect>p {
     background-color: red;
 }
 
