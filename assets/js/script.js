@@ -83,9 +83,10 @@ let question = document.getElementById('question');
 let options = Array.from(document.getElementsByClassName('answer-selection'));
 let progressNumber = document.getElementById('progressNumber');
 let scoreNumber = document.getElementById('score');
+let progressBar = document.getElementById('progressBar');
 
 let correct_bonus = 10; //how much is a correct answer worth
-let max_questions = 10; //maximum attempts from the user
+let max_questions = 10; //maximum question for the user
 
 // set some variables to be used
 let currentQuestion = {};
@@ -110,9 +111,13 @@ playGame = () => {
 newQuestions = () => {
     questionCounter++;
     
-    //Update question tally using string concatenation
+    // Update question tally using string concatenation
     progressNumber.innerText = `Question ${questionCounter}/${max_questions}`;
     
+    // Update progress bar as a percentage
+
+    progressBar.style.width = `${(questionCounter / max_questions) * 100}%`;
+
     let questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex]; // Index through questions array
     question.innerText = currentQuestion.question; // Set the H2 elements innerText
@@ -145,7 +150,6 @@ options.forEach((choice) => {
         if (answer == currentQuestion.answer) { //'==' as one is a string and the other is a number.
             applyClass = "correct";
         }
-        //console.log(applyClass);
         
         // Set the div class to apply color green to the box if the answer is correct
         selectedAnswer.parentElement.classList.add(applyClass);
