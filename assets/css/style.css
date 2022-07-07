@@ -41,6 +41,7 @@ h4 {
     font-size: 1.5em;
     color: #005EB8;
     margin-bottom: 1rem;
+    padding: 0 1rem;
 }
 
 /* Make game full with of of screen and center items */
@@ -239,7 +240,6 @@ footer i {
 }
 
 /* Style the results page */
-
 form {
     width: 100%;
     display: flex;
@@ -258,4 +258,13 @@ input {
     font-size: 1rem;
     border: 0.2rem solid #005EB8;
     border-radius: 1rem;
+}
+
+::placeholder {
+    color: #005EB8;
+    opacity: 1;
+}
+
+#endPage h2 {
+    color: #FBF7F5;
 }

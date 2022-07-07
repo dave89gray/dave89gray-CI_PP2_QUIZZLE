@@ -96,6 +96,13 @@ let questionCounter = 0;
 let availableQuestions = [];
 
 /**
+ * Adds an event listener to the document so that when the event fires, the playGame function is called
+ */
+document.addEventListener('DOMContentLoaded', function () {
+    playGame();
+});
+
+/**
  * Function to start the game
  */
 playGame = () => {
@@ -112,15 +119,19 @@ newQuestions = () => {
 
     //set up for if all questions have been answered then we move on to results page
     if (availableQuestions.length === 0 || questionCounter >= max_questions) {
+
+        // Store the score so it can be retrieved in the results page
+        localStorage.setItem('recentScore', score);
+
         //take the user to the results html page
         return window.location.assign("/result.html");
     }
 
     questionCounter++;
-    
+
     // Update question tally using string concatenation
     progressNumber.innerText = `Question ${questionCounter}/${max_questions}`;
-    
+
     // Update progress bar as a percentage
 
     progressBar.style.width = `${(questionCounter / max_questions) * 100}%`;
@@ -157,19 +168,19 @@ options.forEach((choice) => {
         if (answer == currentQuestion.answer) { //'==' as one is a string and the other is a number.
             applyClass = "correct";
         }
-        
+
         // Set the div class to apply color green to the box if the answer is correct
         selectedAnswer.parentElement.classList.add(applyClass);
 
         // If the user guess is correct then increment by the bonus score
-        if(applyClass === 'correct') {
+        if (applyClass === 'correct') {
             incrementScore(correct_bonus);
         }
 
         /* 
         Set the div class to apply red color to the box if the answer is correct and wait 1 second
         so that it is visible.
-        */ 
+        */
         setTimeout(() => {
             selectedAnswer.parentElement.classList.remove(applyClass);
             newQuestions(); //get the next question once answered
@@ -182,4 +193,4 @@ incrementScore = num => {
     scoreNumber.innerText = score;
 };
 
-playGame();
+//playGame();
