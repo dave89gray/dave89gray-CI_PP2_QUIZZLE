@@ -6,6 +6,10 @@ let recentScore = localStorage.getItem('recentScore');
 // This will get the recent score from the user and place it into the H2 element with the Id of userScore
 userScore.innerText = recentScore;
 
+//convert the array to a Json string and get the value in local storage to add to array 
+let scoresLeaderboard = JSON.parse(localStorage.getItem('scoresLeaderboard')) || [];
+console.log(scoresLeaderboard);
+
 /**
  * Function to allow form to be filled out and scores to not be
  * saved until a username is filled in

@@ -20,7 +20,7 @@ let questions = [{
         choice2: 'Rabbit',
         choice3: 'Deer',
         choice4: 'Unicorn',
-        answer: 1,
+        answer: 4,
     },
     {
         question: 'Which train station in Scotland is named after a novel by Sir Walter Scott?',
@@ -184,7 +184,7 @@ options.forEach((choice) => {
         setTimeout(() => {
             selectedAnswer.parentElement.classList.remove(applyClass);
             newQuestions(); //get the next question once answered
-        }, 1000);
+        }, 1000); // Wait 1 second before next question loads
     });
 });
 
