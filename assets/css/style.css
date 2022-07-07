@@ -239,6 +239,23 @@ footer i {
 }
 
 /* Style the results page */
-#endPage {
-    background-color: #FBF7F5;
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#finalScore {
+    color: #FBF7F5;
+}
+
+input {
+    margin-bottom: 2rem;
+    width: 15rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 0.2rem solid #005EB8;
+    border-radius: 1rem;
 }
