@@ -1,8 +1,11 @@
-let username = document.getElementById('username');
+const username = document.getElementById('username');
+const saveScores = document.getElementById('saveScores');
+
 
 //log the username when a key returns up
 username.addEventListener('keyup', () => {
     console.log(username.value);
+    saveScore.disabled = !username.value;
 });
 
 saveScore = (e) => {
