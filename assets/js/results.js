@@ -10,6 +10,9 @@ userScore.innerText = recentScore;
 let scoresLeaderboard = JSON.parse(localStorage.getItem('scoresLeaderboard')) || [];
 console.log(scoresLeaderboard);
 
+// Variable so that the maximum scores stored will be 5
+let max_high_scores = 5;
+
 /**
  * Function to allow form to be filled out and scores to not be
  * saved until a username is filled in
@@ -36,5 +39,7 @@ saveScore = (e) => {
     scoresLeaderboard.score( (a,b) => {
         return b.score - a.score;
     })
+
+    scoresLeaderboard.splice(5); // Splice leaderboard at the 5th index
     console.log(scoresLeaderboard);
 };
