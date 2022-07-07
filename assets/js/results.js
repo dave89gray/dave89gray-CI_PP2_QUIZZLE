@@ -30,5 +30,11 @@ saveScore = (e) => {
         score: recentScore,
         name: username.value
     };
-    console.log(score);
+    scoresLeaderboard.push(score); //Push score to leaderboard array
+
+    //Sort array so highest score is at the top
+    scoresLeaderboard.score( (a,b) => {
+        return b.score - a.score;
+    })
+    console.log(scoresLeaderboard);
 };
