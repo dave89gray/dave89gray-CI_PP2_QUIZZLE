@@ -36,10 +36,14 @@ saveScore = (e) => {
     scoresLeaderboard.push(score); //Push score to leaderboard array
 
     //Sort array so highest score is at the top
-    scoresLeaderboard.score( (a,b) => {
+    scoresLeaderboard.sort( (a,b) => {
         return b.score - a.score;
     })
 
     scoresLeaderboard.splice(5); // Splice leaderboard at the 5th index
+
+    // Update the storage with the higher scores using stringify to create the string
+    localStorage.setItem('scoresLeaderboard', JSON.stringify(scoresLeaderboard));
+
     console.log(scoresLeaderboard);
 };
