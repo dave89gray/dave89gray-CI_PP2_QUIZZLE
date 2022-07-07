@@ -109,6 +109,13 @@ playGame = () => {
  * Function to go to next question
  */
 newQuestions = () => {
+
+    //set up for if all questions have been answered then we move on to results page
+    if (availableQuestions.length === 0 || questionCounter >= max_questions) {
+        //take the user to the results html page
+        return window.location.assign("/result.html");
+    }
+
     questionCounter++;
     
     // Update question tally using string concatenation
