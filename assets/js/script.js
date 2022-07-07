@@ -160,7 +160,6 @@ options.forEach((choice) => {
         
         // Set the div class to apply color green to the box if the answer is correct
         selectedAnswer.parentElement.classList.add(applyClass);
-        console.log(applyClass);
 
         // If the user guess is correct then increment by the bonus score
         if(applyClass === 'correct') {
@@ -181,7 +180,6 @@ options.forEach((choice) => {
 incrementScore = num => {
     score += num;
     scoreNumber.innerText = score;
-    console.log(incrementScore);
 };
 
 playGame();
