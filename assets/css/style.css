@@ -276,3 +276,15 @@ input {
     margin-bottom: 2rem;
     font-size: 2rem;
 }
+
+/* Style the Contact Us page */
+#form input,
+select,
+textarea {
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 0.0625rem solid #005EB8;
+    border-radius: 0.0625rem 
+}
