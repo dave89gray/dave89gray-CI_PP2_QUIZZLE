@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 5rem;
     color: #005EB8;
     justify-content: center;
     margin-bottom: 3rem;
@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-    font-size: 4em;
+    font-size: 4rem;
     color: #005EB8;
     margin-bottom: 2rem;
     justify-content: center;
@@ -32,13 +32,13 @@ h2 {
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 2rem;
     color: #005EB8;
     margin-bottom: 1rem;
 }
 
 h4 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: #005EB8;
     margin-bottom: 1rem;
     padding: 0 1rem;
@@ -57,7 +57,7 @@ h4 {
 }
 
 /* Make children 100% wide so content is centered horizontally */
-.game-container>* {
+.game-container > * {
     width: 100%;
 }
 
@@ -269,8 +269,10 @@ input {
     color: #FBF7F5;
 }
 
-#leaderboard-style h3 {
+#scoresLeaderboard {
     background-color: #FBF7F5;
-    border: 0.1rem solid #FBF7F5;
-    border-radius: 1rem;
+    border: 0.2rem solid #005EB8;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
 }
