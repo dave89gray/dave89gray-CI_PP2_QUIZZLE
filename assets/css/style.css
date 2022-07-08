@@ -57,7 +57,7 @@ h4 {
 }
 
 /* Make children 100% wide so content is centered horizontally */
-.game-container > * {
+.game-container>* {
     width: 100%;
 }
 
@@ -278,6 +278,16 @@ input {
 }
 
 /* Style the Contact Us page */
+.contact-container {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    max-width: 70rem;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
 #form input,
 select,
 textarea {
@@ -286,5 +296,24 @@ textarea {
     padding: 1rem;
     font-size: 1rem;
     border: 0.0625rem solid #005EB8;
-    border-radius: 0.0625rem 
+    border-radius: 0.625rem;
+}
+
+#fname,
+#lname,
+#email,
+#region {
+    height: 1rem;
+}
+
+#submit {
+    width: 10rem;
+    border: 0.0625rem solid #005EB8;
+    border-radius: 0.3125rem;
+    margin-top: 0.3125rem;
+    cursor: pointer;
+}
+
+#form label {
+    position: relative;
 }
