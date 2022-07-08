@@ -281,10 +281,7 @@ input {
 .contact-container {
     width: 100vh;
     height: 100vh;
-    display: flex;
-    align-items: center;
-    max-width: 70rem;
-    padding: 1rem;
+    display: block;
     margin: 0 auto;
 }
 
@@ -292,13 +289,16 @@ input {
     background-color: #FBF7F5;
     border: 0.0625rem solid #005EB8;
     border-radius: 0.625rem;
+    margin-bottom: 1rem;
+    width: 50%;
+    margin: 0 auto;
 }
 
 #form input,
 select,
 textarea {
     margin-bottom: 1rem;
-    width: 100%;
+    width: 50%;
     padding: 1rem;
     font-size: 1rem;
     border: 0.0625rem solid #005EB8;
@@ -310,6 +310,10 @@ textarea {
 #email,
 #region {
     height: 1rem;
+}
+
+label {
+    margin-bottom: 0.125rem;
 }
 
 #submit {
