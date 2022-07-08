@@ -268,3 +268,9 @@ input {
 #endPage h2 {
     color: #FBF7F5;
 }
+
+#leaderboard-style h3 {
+    background-color: #FBF7F5;
+    border: 0.1rem solid #FBF7F5;
+    border-radius: 1rem;
+}
