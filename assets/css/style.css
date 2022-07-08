@@ -20,7 +20,7 @@ h1 {
     justify-content: center;
     margin-bottom: 3rem;
     text-decoration: none;
-    background-color: #FBF7F5
+    background-color: #FBF7F5;
 }
 
 h2 {
@@ -288,6 +288,12 @@ input {
     margin: 0 auto;
 }
 
+#contact-head {
+    background-color: #FBF7F5;
+    border: 0.0625rem solid #005EB8;
+    border-radius: 0.625rem;
+}
+
 #form input,
 select,
 textarea {
@@ -312,8 +318,4 @@ textarea {
     border-radius: 0.3125rem;
     margin-top: 0.3125rem;
     cursor: pointer;
-}
-
-#form label {
-    position: relative;
 }

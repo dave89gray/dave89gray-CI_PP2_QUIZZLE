@@ -14,9 +14,12 @@
 <body>
     <div class="contact-container">
         <div id="contact-form" class="flex-center flex-column">
-            <a href="index.html">
-                <h2>QUIZZLE</h2>
-            </a>
+            <div id="contact-head">
+                <a href="index.html">
+                    <h2>QUIZZLE</h2>
+                </a>
+                <p>Alba gu bràth</p>
+            </div>
             <!-- Div that will hold the contact us form -->
             <div id="contactUs">
 
@@ -39,9 +42,10 @@
                             <option value="asia_pacific">Asia Pacific</option>
                             <option value="M_E_A">Middle East/Africa</option>
                         </select>
-                        
+
                         <label for="subject" aria-labelledby="subject">Subject</label>
-                        <textarea name="subject" id="subject" cols="50" rows="20"></textarea>
+                        <textarea name="subject" id="subject" cols="40" rows="15"
+                            placeholder="Tell us your thoughts and suggestions..."></textarea>
 
                         <input type="submit" value="submit" id="submit">
                     </form>
