@@ -376,7 +376,10 @@ label {
     padding: 1rem;
 }
 
-#error-container img {
-    width: 500px;
-    height: auto;
+#error-image {
+    background-color: #FBF7F5;
+}
+
+#error-container p {
+    font-size: 2rem;
 }
