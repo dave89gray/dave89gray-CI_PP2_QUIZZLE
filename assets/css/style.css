@@ -47,7 +47,7 @@ h4 {
 /* Make game full with of of screen and center items */
 .game-container {
     width: 100vh;
-    height: 900px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -177,6 +177,7 @@ footer i {
     flex-direction: row;
     text-align: center;
     float: left;
+    margin-left: 2rem;
 }
 
 .foot-contact {
@@ -184,6 +185,11 @@ footer i {
     align-items: center;
     font-size: 1.5rem;
     text-decoration: none;
+    margin-right: 2rem;
+}
+
+.foot-social li {
+    list-style: none;
 }
 
 /* Colour the answer boxes once an answer has been given */
@@ -295,21 +301,20 @@ input {
 /* Style the Contact Us page */
 .contact-container {
     width: 100vh;
-    height: 900px;
+    height: 700px;
     display: block;
     margin: 0 auto;
 }
 
 #contact-head {
     margin-bottom: 5rem;
-    width: 30%;
     margin: 0 auto;
 }
 
 #contact-head h2 {
     display: flex;
-    padding-top: 2rem;
-    margin-bottom: 4rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
     color: black;
 }
 
