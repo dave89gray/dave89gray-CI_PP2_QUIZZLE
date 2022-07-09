@@ -8,7 +8,6 @@ userScore.innerText = recentScore;
 
 //convert the array to a Json string and get the value in local storage to add to array 
 let scoresLeaderboard = JSON.parse(localStorage.getItem('scoresLeaderboard')) || [];
-console.log(scoresLeaderboard);
 
 // Variable so that the maximum scores stored will be 5
 let max_high_scores = 5;
@@ -34,14 +33,18 @@ saveScore = (e) => {
         name: username.value
     };
     scoresLeaderboard.push(score); //Push score to leaderboard array
+    console.log(scoresLeaderboard);
 
-    //Sort array so highest score is at the top
+    //Sort array so highest score is at the top, if b is higher than a then put b before a
     scoresLeaderboard.sort( (a,b) => {
         return b.score - a.score;
     })
 
-    scoresLeaderboard.splice(5); // Splice leaderboard at the 5th index
+    scoresLeaderboard.splice(5); // Splice leaderboard at the 5th index so only 5 highest scores show
 
     // Update the storage with the higher scores using stringify to create the string
     localStorage.setItem('scoresLeaderboard', JSON.stringify(scoresLeaderboard));
+
+    // Return home when user score is logged
+    window.location.assign("/");
 };
