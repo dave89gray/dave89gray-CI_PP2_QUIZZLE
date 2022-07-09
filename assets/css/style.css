@@ -371,12 +371,6 @@ label {
     height: 500px;
     width: auto;
     position: relative;
-    clear: both;
-}
-
-#error-container p {
-    font-size: 2rem;
-    position: relative;
-    text-align: center;
+    margin: 0 auto;
     clear: both;
 }
