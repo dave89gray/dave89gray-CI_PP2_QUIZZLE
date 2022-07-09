@@ -301,17 +301,16 @@ input {
 }
 
 #contact-head {
-    border: 0.0625rem solid #005EB8;
-    border-radius: 0.625rem;
     margin-bottom: 5rem;
     width: 30%;
     margin: 0 auto;
 }
 
 #contact-head h2 {
+    display: flex;
     padding-top: 2rem;
     margin-bottom: 4rem;
-    color: #1b1c1c;
+    color: black;
 }
 
 #form input,
