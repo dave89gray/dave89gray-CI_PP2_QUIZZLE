@@ -277,6 +277,22 @@ input {
     font-size: 2rem;
 }
 
+#finalLeaderboard {
+    list-style: none;
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+
+.scoresTable {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    color: #005EB8;
+    background-color: #FBF7F5;
+    border: 0.2rem solid #005EB8;
+    border-radius: 0.5rem;
+    width: 10rem;
+}
+
 /* Style the Contact Us page */
 .contact-container {
     width: 100vh;
