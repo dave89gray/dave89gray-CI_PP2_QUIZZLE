@@ -366,18 +366,12 @@ label {
 }
 
 /* 404 Page Styling */
-.error-container {
-    width: 100vh;
-    height: 700px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 60rem;
-    padding: 1rem;
-}
 
 #error-image {
-    background-color: #FBF7F5;
+    height: 500px;
+    width: auto;
+    position: relative;
+    clear: both;
 }
 
 #error-container p {
