@@ -320,6 +320,7 @@ input {
     color: black;
 }
 
+/* Contact us form css styling */
 #form input,
 select,
 textarea {
@@ -363,4 +364,12 @@ label {
     border-radius: 0.3125rem;
     margin-top: 0.0625rem;
     cursor: pointer;
+}
+
+/* 404 Page Styling */
+#error-container {
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+    clear: both;
 }
