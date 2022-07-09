@@ -376,4 +376,7 @@ label {
 
 #error-container p {
     font-size: 2rem;
+    position: relative;
+    text-align: center;
+    clear: both;
 }
