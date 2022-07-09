@@ -76,6 +76,46 @@ let questions = [{
         choice3: 'Paul Duncan',
         choice4: 'Graeme Lamb',
         answer: 1,
+    },
+    {
+        question: 'The Scottish scientist is known for discovering which antibiotics?',
+        choice1: 'Amoxicillin',
+        choice2: 'Penicillin',
+        choice3: 'Tetracyclines',
+        choice4: 'Clindamycin',
+        answer: 2,
+    },
+    {
+        question: 'About how many golf courses are there in Scotland?',
+        choice1: '150',
+        choice2: '350',
+        choice3: '550',
+        choice4: '950',
+        answer: 3,
+    },
+    {
+        question: 'A "Munro" is the name for a Scottish mountain above which height?',
+        choice1: '1,000 feet',
+        choice2: '2,000 feet',
+        choice3: '3,000 feet',
+        choice4: '4,000 feet',
+        answer: 3,
+    },
+    {
+        question: 'St Andrews is Scotlands oldest university. When was it founded?',
+        choice1: '1413',
+        choice2: '1513',
+        choice3: '1613',
+        choice4: '1713',
+        answer: 1,
+    },
+    {
+        question: 'Andrew Carnegie made his fortune in the USA. But where was he born?',
+        choice1: 'Greenock',
+        choice2: 'Glasgow',
+        choice3: 'Blantyre, Lanarkshire',
+        choice4: 'Dunfermline, Fife',
+        answer: 4,
     }
 ];
 
