@@ -3,18 +3,18 @@
  * has clicked submit. It should return a Thank You message.
  */
 document.addEventListener('DOMContentLoaded', function () {
-    document.getElementById('form').addEventListener('submit', function (event) {
+    document.getElementById('contactForm').addEventListener('submit', function (event) {
         // Prevent the form taking default action of posting to a different page
         event.preventDefault();
         emailjs.init('user_GdX0myu7Q38VyMRFe');
-        emailjs.sendForm('service_pdj1v3o', 'contact_form', this)
-            .then(function() {
+        emailjs.sendForm('quizzle', 'contact_form', this)
+            .then(function () {
                 //Email successfully sent
             }, function (error) {
                 //Email sumbission unsuccessful
                 console.log('FAILED...', error);
             });
-            thankYouMessage();
+        thankYouMessage();
     });
 });
 
@@ -30,5 +30,5 @@ function thankYouMessage() {
     <div>
         <a href="index.html" class="home-button">return to Home!</a>
     </div>`;
-    document.getElementsByClassName("contact-container").innerHTML = html;
+    document.getElementsByClassName("contactUs").innerHTML = html;
 }
