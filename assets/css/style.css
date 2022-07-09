@@ -275,6 +275,7 @@ input {
 
 #endPage h2 {
     color: #FBF7F5;
+    font-size: 3rem;
 }
 
 #leaderboardStyle {
@@ -282,7 +283,6 @@ input {
     border: 0.2rem solid #005EB8;
     border-radius: 0.5rem;
     margin-bottom: 2rem;
-    font-size: 2rem;
 }
 
 #finalLeaderboard {
