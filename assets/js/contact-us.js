@@ -12,6 +12,8 @@ console.log(email.value);
  */
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('form').addEventListener('submit', function (event) {
-        
+        // Prevent the form taking default action of posting to a different page
+        event.preventDefault();
+        emailjs.init(GdX0myu7Q38VyMRFe);
     })
 })

@@ -33,7 +33,7 @@ saveScore = (e) => {
     scoresLeaderboard.push(score); //Push score to leaderboard array
 
     //Sort array so highest score is at the top, if b is higher than a then put b before a
-    scoresLeaderboard.sort( (a,b) => {
+    scoresLeaderboard.sort((a, b) => {
         return b.score - a.score;
     })
 
