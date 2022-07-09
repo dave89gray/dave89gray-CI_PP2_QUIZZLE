@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Prevent the form taking default action of posting to a different page
         event.preventDefault();
         emailjs.init('user_GdX0myu7Q38VyMRFe');
-        emailjs.sendForm('quizzle', 'contact_form', this)
+        emailjs.sendForm('service_pdj1v3o', 'contact_form', this)
             .then(function() {
                 //Email successfully sent
             }, function (error) {
