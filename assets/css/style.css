@@ -47,11 +47,11 @@ h4 {
 /* Make game full with of of screen and center items */
 .game-container {
     width: 100vh;
-    height: 100vh;
+    height: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 70rem;
+    max-width: 60rem;
     padding: 1rem;
     margin: 0 auto;
 }
@@ -295,18 +295,23 @@ input {
 /* Style the Contact Us page */
 .contact-container {
     width: 100vh;
-    height: 100vh;
+    height: 900px;
     display: block;
     margin: 0 auto;
 }
 
 #contact-head {
-    background-color: #FBF7F5;
     border: 0.0625rem solid #005EB8;
     border-radius: 0.625rem;
-    margin-bottom: 1rem;
-    width: 50%;
+    margin-bottom: 5rem;
+    width: 30%;
     margin: 0 auto;
+}
+
+#contact-head h2 {
+    padding-top: 2rem;
+    margin-bottom: 4rem;
+    color: #1b1c1c;
 }
 
 #form input,
@@ -325,15 +330,18 @@ textarea {
 #email,
 #region {
     height: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 label {
-    margin-bottom: 0.125rem;
+    margin-top: 0.125rem;
+    font-weight: bold;
 }
 
 #submit {
-    width: 10rem;
+    width: 20%;
     border: 0.0625rem solid #005EB8;
+    background-color: #FBF7F5;
     border-radius: 0.3125rem;
     margin-top: 0.3125rem;
     cursor: pointer;
