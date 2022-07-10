@@ -479,12 +479,4 @@ label {
     .answer-options {
         width: 80%;
     }
-
-    #error-image {
-        width: 300px;
-    }
-
-    .contact-container {
-        width: 50vh;
-    }
 }

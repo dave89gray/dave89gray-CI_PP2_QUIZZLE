@@ -142,7 +142,7 @@ The website is structured in an easy-on-the-eye way with a simple layout that is
 - EmailJS
 
 ## Features
-This site contains 6 pages and 9 features.
+This site contains 6 pages and 10 features.
 
 ### Header
 - The header appears on all pages except the Leaderboard page which has a "Go Home" button on it to navigate back.
@@ -286,3 +286,44 @@ The WAVE WebAIm evaluation tool was used to ensure the website has high accessib
 <details><summary>404 Page Accessibility</summary>
 <img src="assets/docs/validation/accessibility-evaluation-404.png">
 </details>
+
+### Performace
+Google Lighthouse was used in the Chrome Developers tools which tested the performance of the website.
+
+<details><summary>Home Performance</summary>
+<img src="assets/docs/validation/performace-lighthouse-index.png">
+</details>
+<details><summary>Game Performance</summary>
+<img src="assets/docs/validation/performace-lighthouse-game.png">
+</details>
+<details><summary>Results Performance</summary>
+<img src="assets/docs/validation/performace-lighthouse-results.png">
+</details>
+<details><summary>Leaderboard Performance</summary>
+<img src="assets/docs/validation/performace-lighthouse-leaderboard.png">
+</details>
+<details><summary>Contact Us Performance</summary>
+<img src="assets/docs/validation/performace-lighthouse-contact-us.png">
+</details>
+
+### Performing test on devices
+The website was tested on the below devices:
+- Apple MacBook Pro (15-inch, Mid 2012)
+- Apple Ipad mini 4, software wersion 15.2.1
+- Apple Iphone 11
+
+The website was also tested on Google Chrome Developer Tools using the toggling option to view the layout on various devices.
+
+### Browser Compatability
+The website was tested on the following browsers:
+- Google Chrome
+- Mozilla Firefox
+- Safari
+
+### Testing User Stories
+
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation menu | Navigate to the Projects page, locate the various examples of work undertaken | Find the examples of the company portfolio | Works as expected |
