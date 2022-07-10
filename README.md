@@ -356,7 +356,7 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Navigation menu | Navigate to the Projects page, locate the various examples of work undertaken | Find the examples of the company portfolio | Works as expected |
+| The score | Navigate to the Projects page, locate the various examples of work undertaken | Find the examples of the company portfolio | Works as expected |
 
 <details><summary>User Story 4</summary>
 <img src="assets/docs/user-story-telling/user-story-2.png">
@@ -366,7 +366,7 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Navigation menu | Navigate to the Projects page, locate the various examples of work undertaken | Find the examples of the company portfolio | Works as expected |
+| Log the user details so it can populate the leaderboard | Fill in the blank space for the username | The results will populate the leaderboard | Works as expected |
 
 <details><summary>User Story 5</summary>
 <img src="assets/docs/user-story-telling/user-story-5.png">
@@ -376,7 +376,7 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Navigation menu | Navigate to the Projects page, locate the various examples of work undertaken | Find the examples of the company portfolio | Works as expected |
+| Leaderboard populates automatically with user inputs | Navigate to the Leaderboard page and view the results | The leaderboard to have scores in it | Works as expected |
 
 <details><summary>User Story 6</summary>
 <img src="assets/docs/user-story-telling/user-story-6.png">
@@ -386,17 +386,20 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Navigation menu | Navigate to the Projects page, locate the various examples of work undertaken | Find the examples of the company portfolio | Works as expected |
+|  |  |  | Works as expected |
 
 <details><summary>User Story 7</summary>
 <img src="assets/docs/user-story-telling/user-story-7.png">
+</details>
+<details><summary>User Story 7</summary>
+<img src="assets/docs/user-story-telling/user-story-7a.png">
 </details>
 
 8. As a site owner, i want users to be able to give us feedback and make suggestions about future quizes.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Navigation menu | Navigate to the Projects page, locate the various examples of work undertaken | Find the examples of the company portfolio | Works as expected |
+|  |  |  | Works as expected |
 
 <details><summary>User Story 8</summary>
 <img src="assets/docs/user-story-telling/user-story-8.png">
@@ -406,7 +409,7 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Navigation menu | Navigate to the Projects page, locate the various examples of work undertaken | Find the examples of the company portfolio | Works as expected |
+|  |  |  | Works as expected |
 
 <details><summary>User Story 9</summary>
 <img src="assets/docs/user-story-telling/user-story-9.png">
@@ -416,7 +419,7 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Navigation menu | Navigate to the Projects page, locate the various examples of work undertaken | Find the examples of the company portfolio | Works as expected |
+|  |  |  | Works as expected |
 
 <details><summary>User Story 10</summary>
 <img src="assets/docs/user-story-telling/user-story-10.png">

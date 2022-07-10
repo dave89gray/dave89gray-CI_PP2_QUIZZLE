@@ -145,17 +145,17 @@ document.addEventListener('DOMContentLoaded', function () {
 /**
  * Function to start the game
  */
-playGame = () => {
+const playGame = () => {
     questionCounter = 0;
     score = 0; //set the score
     availableQuestions = [...questions]; //Spread operator to get the questions
     newQuestions();
-};
+}
 
 /**
  * Function to go to next question
  */
-newQuestions = () => {
+const newQuestions = () => {
 
     //set up for if all questions have been answered then we move on to results page
     if (availableQuestions.length === 0 || questionCounter >= max_questions) {
@@ -165,9 +165,9 @@ newQuestions = () => {
 
         //take the user to the results html page
         //return window.location.href("/dave89gray-CI_PP2_QUIZZLE/results.html");
-        return window.location.href = window.location.href.includes("github") 
-        ? '/dave89gray-CI_PP2_QUIZZLE/result.html'
-        : '/result.html';
+        return window.location.href = window.location.href.includes("github") ?
+            '/dave89gray-CI_PP2_QUIZZLE/result.html' :
+            '/result.html';
 
     }
 
@@ -232,7 +232,7 @@ options.forEach((choice) => {
     });
 });
 
-incrementScore = num => {
+const incrementScore = num => {
     score += num;
     scoreNumber.innerText = score;
 };

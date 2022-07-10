@@ -9,8 +9,6 @@ userScore.innerText = recentScore;
 //convert the array to a Json string and get the value in local storage to add to array 
 let scoresLeaderboard = JSON.parse(localStorage.getItem('scoresLeaderboard')) || [];
 
-// Variable so that the maximum scores stored will be 5
-let max_high_scores = 5;
 
 /**
  * Function to allow form to be filled out and scores to not be
@@ -22,7 +20,7 @@ username.addEventListener('keyup', () => {
     saveScores.disabled = !username.value;
 });
 
-saveScore = (e) => {
+const saveScore = (e) => {
     // Prevent the form taking default action of posting to a different page
     e.preventDefault();
 
