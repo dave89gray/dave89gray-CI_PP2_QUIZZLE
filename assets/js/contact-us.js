@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Prevent the form taking default action of posting to a different page
         event.preventDefault();
         emailjs.init('user_GdX0myu7Q38VyMRFe');
-        emailjs.sendForm('quizzle', 'contact_form', this)
+        emailjs.sendForm('service_pdj1v3o', 'contact_form', this, 'GdX0myu7Q38VyMRFe')
             .then(function () {
                 //Email successfully sent
             }, function (error) {
@@ -23,12 +23,12 @@ document.addEventListener('DOMContentLoaded', function () {
  */
 function thankYouMessage() {
     let html = `
-    <h4>Thank you for leaving us your feedback</h4>
+    <h4 class"flex-center flex-column">Thank you for leaving us your feedback</h4>
     <div class="feedback_container flex-center flex-column">
         <img src="assets/images/feedback_img.jpeg" alt="The Royal Banner of Scotland flag">
     </div>
     <div>
-        <a href="index.html" class="home-button">return to Home!</a>
+        <a href="index.html" class="home-button flex-center flex-column">return to Home!</a>
     </div>`;
-    document.getElementsByClassName("contactUs").innerHTML = html;
+    document.getElementById("contactUs").innerHTML = html;
 }
