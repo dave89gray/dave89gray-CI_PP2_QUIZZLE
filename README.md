@@ -78,6 +78,7 @@ Quizzle is a fun game that aims to bring the user some happiness. The aim is to 
 ### Site Owner Stories
 8. As a site owner, i want users to be able to give us feedback and make suggestions about future questions.
 9. As a site owner, I want users to be able to locate us on our social media platforms.
+10. As a site owner, I want users to be able to navigate about the site easily.
 
 ## Design
 
@@ -153,38 +154,48 @@ This site contains 6 pages and 9 features.
 ### Footer
 - The footer appearson all pages
 - The position is always at the bottom of the screen
-- User story: 7
+- User story: 9
 
 <details><summary>Footer</summary>
 <img src="assets/docs/features/feature-footer">
 </details>
 
-###
-- 
+### Home Screen
+- Provides the user the ability to navigate throught the website easily.
+- User story: 10
 
-<details><summary></summary>
-<img src="assets/docs/features/feature-">
+<details><summary>Home Screen Navigation</summary>
+<img src="assets/docs/features/feature-home-page">
 </details>
 
-###
-- 
+### Quiz Screen
+- This consists of 4 sections:
+    - The quiz questions
+    - The multiple choice answer
+    - The progress bar
+    - The score counter
+- User stories covered: 1, 2, 3 & 4
 
-<details><summary></summary>
-<img src="assets/docs/features/feature-">
+<details><summary>Quiz Screen</summary>
+<img src="assets/docs/features/feature-game.png">
 </details>
 
-###
-- 
+### Results Screen
+- This section has different buttons to allow easy navigation
+- The score will fill in dynamically
+- There is a text input for the user to fill in their name
+- User stories: 5, 10
 
-<details><summary></summary>
-<img src="assets/docs/features/feature-">
+<details><summary>Results section</summary>
+<img src="assets/docs/features/feature-results.png">
 </details>
 
-###
-- 
+### Leaderboard Screen
+- This section will show the leaderboard of the game, with the highest score being at the top
+- User story: 6
 
-<details><summary></summary>
-<img src="assets/docs/features/feature-">
+<details><summary>Leaderboard Screen</summary>
+<img src="assets/docs/features/feature-leaderboard.png">
 </details>
 
 ###
