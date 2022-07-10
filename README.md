@@ -249,6 +249,7 @@ The W3C Jigsaw Validation Service was used to validate the CSS of the website. T
 
 ### Javascript Validation
 JSHint Static Code tool was used to validate the Javascrip code from the website. There were no major errors highlighted.
+There was an undefined variable, emailJS, on the contact page which got highlighted whoever if i changed this it removed the functionality. There was also an unused variable on the results page, however this was called on in another file.
 <details><summary>Game Javascript</summary>
 <img src="assets/docs/validation/js-validation-game-p1.png">
 </details>
