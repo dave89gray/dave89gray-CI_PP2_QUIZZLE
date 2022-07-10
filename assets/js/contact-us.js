@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('contactForm').addEventListener('submit', function (event) {
         // Prevent the form taking default action of posting to a different page
         event.preventDefault();
-        const emailjs.init('user_GdX0myu7Q38VyMRFe');
-        const emailjs.sendForm('service_pdj1v3o', 'contact_form', this, 'GdX0myu7Q38VyMRFe')
+        emailjs.init('user_GdX0myu7Q38VyMRFe');
+        emailjs.sendForm('service_pdj1v3o', 'contact_form', this, 'GdX0myu7Q38VyMRFe')
             .then(function () {
                 //Email successfully sent
             }, function (error) {

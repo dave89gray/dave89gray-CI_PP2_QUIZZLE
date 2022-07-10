@@ -41,5 +41,5 @@ const saveScore = (e) => {
     localStorage.setItem('scoresLeaderboard', JSON.stringify(scoresLeaderboard));
 
     // Return home when user score is logged
-    //window.location.assign("/");
+    window.location.assign("/");
 };
