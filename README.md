@@ -107,11 +107,11 @@ The website is structured in an easy-on-the-eye way with a simple layout that is
 <img src="assets/docs/wireframes/index.png">
 </details>
 <details><summary>Game Page</summary>
-<img src="">
+<img src="assets/docs/wireframes/game.png">
 </details>
 <details><summary>Results Page</summary>
-<img src="">
+<img src="assets/docs/wireframes/results.png">
 </details>
 <details><summary>Leaderboard Page</summary>
-<img src="">
+<img src="assets/docs/wireframes/leaderboard.png">
 </details>
