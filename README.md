@@ -387,7 +387,7 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|  |  |  | Works as expected |
+| This is for the user to give feedback on the website or make suggestions | Navigate to the contact us page and fill in the requried details | A thank you page replaces the contact us page | Works as expected |
 
 <details><summary>User Story 7</summary>
 <img src="assets/docs/user-story-telling/user-story-7.png">
@@ -400,8 +400,11 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|  |  |  | Works as expected |
+| Contact form | The user is to navigate to the contact us page and fill in the form | form filled in and i receive an email through emailJS | Works as expected |
 
+<details><summary>User Story 8</summary>
+<img src="assets/docs/user-story-telling/user-story-7.png">
+</details>
 <details><summary>User Story 8</summary>
 <img src="assets/docs/user-story-telling/user-story-8.png">
 </details>
@@ -410,7 +413,7 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|  |  |  | Works as expected |
+| Social media links in footer | Navigate to the footer in any of the pages | clicking on the icon will take the user to the social media platform | Works as expected |
 
 <details><summary>User Story 9</summary>
 <img src="assets/docs/user-story-telling/user-story-9.png">
@@ -420,8 +423,8 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|  |  |  | Works as expected |
+| Easily clickable links throughout the website | Click on any of the headers or buttons to move through the website easily |  | Works as expected |
 
 <details><summary>User Story 10</summary>
-<img src="assets/docs/user-story-telling/user-story-10.png">
+<img src="assets/docs/user-story-telling/user-story-1.png">
 </details>

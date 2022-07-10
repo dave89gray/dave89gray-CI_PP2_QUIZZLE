@@ -366,7 +366,7 @@ label {
 
 /* 404 Page Styling */
 #error-container {
-    display: block;
+    display: flex;
     margin: 0 auto;
     clear: both;
 }
