@@ -369,7 +369,6 @@ label {
 #error-container {
     display: flex;
     justify-content: center;
-    align-items: center;
     max-width: 60rem;
     padding: 1rem;
     margin: 0 auto;
@@ -386,6 +385,7 @@ label {
 #feedback {
     background-color: #FBF7F5;
     margin: 0;
+    width: 80vh;
 }
 
 .flag-image {
@@ -420,7 +420,7 @@ label {
         margin-right: 3rem;
     }
 
-    #error-container .home-button {
+    #error-container a {
         width: 10rem;
     }
 

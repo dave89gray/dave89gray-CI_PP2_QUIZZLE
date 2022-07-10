@@ -26,7 +26,7 @@ function thankYouMessage() {
     
     <div class="feedback_container flex-center flex-column">
     <h4 id="feedback" class"flex-center flex-column">Thank you for leaving us your feedback</h4>
-        <img class="flag-image" src="assets/images/feedback_image.jpeg" alt="The Royal Banner of Scotland flag">
+        <img class="flag-image" src="assets/images/feedback_image.jpg" alt="The Royal Banner of Scotland flag">
         <a href="index.html" class="home-button">Return to Home!</a>
     </div>`;
     document.getElementById("contactUs").innerHTML = html;

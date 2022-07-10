@@ -148,7 +148,7 @@ This site contains 6 pages and 9 features.
 - The header appears on all pages except the Leaderboard page which has a "Go Home" button on it to navigate back.
 
 <details><summary></summary>
-<img src="assets/docs/features/feature-header">
+<img src="assets/docs/features/feature-header.png">
 </details>
 
 ### Footer
@@ -157,7 +157,7 @@ This site contains 6 pages and 9 features.
 - User story: 9
 
 <details><summary>Footer</summary>
-<img src="assets/docs/features/feature-footer">
+<img src="assets/docs/features/feature-footer.png">
 </details>
 
 ### Home Screen
@@ -165,7 +165,7 @@ This site contains 6 pages and 9 features.
 - User story: 10
 
 <details><summary>Home Screen Navigation</summary>
-<img src="assets/docs/features/feature-home-page">
+<img src="assets/docs/features/feature-home-page.png">
 </details>
 
 ### Quiz Screen
@@ -203,7 +203,7 @@ This site contains 6 pages and 9 features.
 - User stories covered: 7, 8
 
 <details><summary>Contact Form</summary>
-<img src="assets/docs/features/feature-form">
+<img src="assets/docs/features/feature-form.png">
 </details>
 
 ### Contact Form Confirmation
@@ -226,60 +226,63 @@ This site contains 6 pages and 9 features.
 ### HTML Validation
 The W3C Markup Validation service was used to verify the HTML of the website. All pages passed with no errors:
 <details><summary>Home Page</summary>
-<img src="assets/docs/features/validation/html-validation-index.png">
+<img src="assets/docs/validation//html-validation-index.png">
 </details>
 <details><summary>Game Page</summary>
-<img src="assets/docs/features/validation/html-validation-game.png">
+<img src="assets/docs/validation//html-validation-game.png">
 </details>
 <details><summary>Results Page</summary>
-<img src="assets/docs/features/validation/html-validation-results.png">
+<img src="assets/docs/validation/html-validation-results.png">
 </details>
 <details><summary>Leaderboard Page</summary>
-<img src="assets/docs/features/validation/html-validation-leaderboard.png">
+<img src="assets/docs/validation/html-validation-leaderboard.png">
 </details>
 <details><summary>Contact Us Page</summary>
-<img src="assets/docs/features/validation/html-validation-contact-us.png">
+<img src="assets/docs/validation/html-validation-contact-us.png">
 </details>
 
 ### CSS Validation
 The W3C Jigsaw Validation Service was used to validate the CSS of the website. The CSS passed with no errors.
 <details><summary>Whole Page</summary>
-<img src="assets/docs/features/validation/css-validation-whole-page.png">
+<img src="assets/docs/validation/css-validation-whole-page.png">
 </details>
 
 ### Javascript Validation
 JSHint Static Code tool was used to validate the Javascrip code from the website. There were no major errors highlighted.
 <details><summary>Game Javascript</summary>
-<img src="assets/docs/features/validation/js-validation-game-p1">
+<img src="assets/docs/validation/js-validation-game-p1.png">
 </details>
 <details><summary>Game Javascript</summary>
-<img src="assets/docs/features/validation/js-validation-game-p2">
+<img src="assets/docs/validation/js-validation-game-p2.png">
 </details>
 <details><summary>Results Javascript</summary>
-<img src="assets/docs/features/validation/js-validation-results">
+<img src="assets/docs/validation/js-validation-results.png">
 </details>
 <details><summary>leaderboard Javascript</summary>
-<img src="assets/docs/features/validation/js-validation-leaderboard">
+<img src="assets/docs/validation/js-validation-leaderboard.png">
 </details>
 <details><summary>Contact Us Javascript</summary>
-<img src="assets/docs/features/validation/js-validation-contact-us">
+<img src="assets/docs/validation/js-validation-contact-us.png">
 </details>
 
 ### Accessibility
 The WAVE WebAIm evaluation tool was used to ensure the website has high accessibiliy standards. There were 2 errors highlighted on the results page, however the H2 must be empty as it is dynamically filled in and the form has a button instead of a label.
 
 <details><summary>Home Accessibility</summary>
-<img src="assets/docs/features/validation/accessibility-evaluation-index.png">
+<img src="assets/docs/validation/accessibility-evaluation-index.png">
 </details>
 <details><summary>Game Accessibility</summary>
-<img src="assets/docs/features/validation/accessibility-evaluation-game.png">
+<img src="assets/docs/validation/accessibility-evaluation-game.png">
 </details>
 <details><summary>Reults Accessibility</summary>
-<img src="assets/docs/features/validation/accessibility-evaluation-results.png">
+<img src="assets/docs/validation/accessibility-evaluation-results.png">
 </details>
 <details><summary>leaderboard Accessibility</summary>
-<img src="assets/docs/features/validation/accessibility-evaluation-leaderboard.png">
+<img src="assets/docs/validation/accessibility-evaluation-leaderboard.png">
 </details>
 <details><summary>Contact Us Accessibility</summary>
-<img src="assets/docs/features/validation/accessibility-evaluation-contact-us.png">
+<img src="assets/docs/validation/accessibility-evaluation-contact-us.png">
+</details>
+<details><summary>404 Page Accessibility</summary>
+<img src="assets/docs/validation/accessibility-evaluation-404.png">
 </details>
