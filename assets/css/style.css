@@ -366,6 +366,14 @@ label {
 }
 
 /* 404 Page Styling */
+#error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60rem;
+    padding: 1rem;
+    margin: 0 auto;
+}
 
 #error-image {
     height: 500px;
