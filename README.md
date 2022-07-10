@@ -115,3 +115,25 @@ The website is structured in an easy-on-the-eye way with a simple layout that is
 <details><summary>Leaderboard Page</summary>
 <img src="assets/docs/wireframes/leaderboard.png">
 </details>
+<details><summary>404 Page</summary>
+<img src="assets/docs/wireframes/404-page.png">
+</details>
+
+## Technologies Used
+
+### languages
+- HTML
+- CSS
+- Javascript
+
+### Frameworks and Tools
+- GitHub
+- Gitpod
+- Balsamiq
+- Favicon
+- JSHint
+- Lighthouse
+- W3C Markup validation service
+- W3C Jigsaw CSS validation service
+- Wave webAim accessibility evaluation tool
+- EmailJS

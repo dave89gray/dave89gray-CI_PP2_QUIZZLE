@@ -376,12 +376,18 @@ label {
 }
 
 #error-image {
+    width: 100%;
+}
+
+/*
+#error-image {
     height: 500px;
     width: auto;
     position: relative;
     margin: 0 auto;
     clear: both;
 }
+*/
 
 /* Contact Us feedback styling */
 #feedback {
