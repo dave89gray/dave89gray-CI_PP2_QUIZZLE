@@ -326,7 +326,7 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Navigation menu | Navigate to the Projects page, locate the various examples of work undertaken | Find the examples of the company portfolio | Works as expected |
+| Buttons and links for easy navigation | Click on the features to ensure that they work | To be navigated away from the page the user is on | Works as expected |
 
 <details><summary>User Story 1</summary>
 <img src="assets/docs/user-story-telling/user-story-1.png">
@@ -336,7 +336,7 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Navigation menu | Navigate to the Projects page, locate the various examples of work undertaken | Find the examples of the company portfolio | Works as expected |
+| The answer will turn green or red depending on the result and the score will update | Click the answer and see what the result is, the progress and score update automatically | Question to turn red as it is wrong | Works asa expected |
 
 <details><summary>User Story 2</summary>
 <img src="assets/docs/user-story-telling/user-story-2.png">
@@ -346,10 +346,10 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Navigation menu | Navigate to the Projects page, locate the various examples of work undertaken | Find the examples of the company portfolio | Works as expected |
+| The progress bar fills up as the questions are answered | Choose an answer to a question | The progress bar should fill up in increments | Works as expected |
 
 <details><summary>User Story 3</summary>
-<img src="assets/docs/user-story-telling/user-story-3.png">
+<img src="assets/docs/user-story-telling/user-story-2.png">
 </details>
 
 4. As a user, i want to see my score as i progress through the quiz.
@@ -359,7 +359,7 @@ The website was tested on the following browsers:
 | Navigation menu | Navigate to the Projects page, locate the various examples of work undertaken | Find the examples of the company portfolio | Works as expected |
 
 <details><summary>User Story 4</summary>
-<img src="assets/docs/user-story-telling/user-story-4.png">
+<img src="assets/docs/user-story-telling/user-story-2.png">
 </details>
 
 5. As a user, i want to be able to log my score and name to the leaderboard.

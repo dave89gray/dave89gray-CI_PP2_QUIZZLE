@@ -378,7 +378,6 @@ label {
 #error-image {
     height: 100%;
     width: 100%;
-    object-fit: contain;
     margin: 0 auto;
     clear: both;
 }
@@ -388,12 +387,11 @@ label {
 #feedback {
     background-color: #FBF7F5;
     margin: 0;
-    width: 80vh;
 }
 
 .flag-image {
-    height: auto;
-    width: 80%;
+    height: 300px;
+    width: 300px;
     object-fit: contain;
 }
 
