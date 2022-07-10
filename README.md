@@ -69,13 +69,15 @@ Quizzle is a fun game that aims to bring the user some happiness. The aim is to 
 ### User Stories
 1. As a user, I want to test my knowledge of Scotland in a quiz.
 2. As a user, I want to be notified if my chosen answer is correct or incorrect.
-3. As a user, i want to be able to log my score and my name.
-4. As a user, I want to see how my score compares to others.
-5. As a user, I want to be able to give feedback and get confirmation it was sucessfully delivered.
+3. As a user, I want to track my progress as I answer questions.
+4. As a user, I want to see my score as i progress through the quiz.
+5. As a user, i want to be able to log my score and my name.
+6. As a user, I want to see how my score compares to others.
+7. As a user, I want to be able to give feedback and get confirmation it was sucessfully delivered.
 
 ### Site Owner Stories
-6. As a site owner, i want users to be able to give us feedback and make suggestions about future questions.
-7. As a site owner, I want users to be able to locate us on our social media platforms.
+8. As a site owner, i want users to be able to give us feedback and make suggestions about future questions.
+9. As a site owner, I want users to be able to locate us on our social media platforms.
 
 ## Design
 
@@ -137,3 +139,71 @@ The website is structured in an easy-on-the-eye way with a simple layout that is
 - W3C Jigsaw CSS validation service
 - Wave webAim accessibility evaluation tool
 - EmailJS
+
+## Features
+This site contains 6 pages and 9 features.
+
+### Header
+- The header appears on all pages except the Leaderboard page which has a "Go Home" button on it to navigate back.
+
+<details><summary></summary>
+<img src="assets/docs/features/feature-header">
+</details>
+
+### Footer
+- The footer appearson all pages
+- The position is always at the bottom of the screen
+- User story: 7
+
+<details><summary>Footer</summary>
+<img src="assets/docs/features/feature-footer">
+</details>
+
+###
+- 
+
+<details><summary></summary>
+<img src="assets/docs/features/feature-">
+</details>
+
+###
+- 
+
+<details><summary></summary>
+<img src="assets/docs/features/feature-">
+</details>
+
+###
+- 
+
+<details><summary></summary>
+<img src="assets/docs/features/feature-">
+</details>
+
+###
+- 
+
+<details><summary></summary>
+<img src="assets/docs/features/feature-">
+</details>
+
+###
+- 
+
+<details><summary></summary>
+<img src="assets/docs/features/feature-">
+</details>
+
+###
+- 
+
+<details><summary></summary>
+<img src="assets/docs/features/feature-">
+</details>
+
+###
+- 
+
+<details><summary></summary>
+<img src="assets/docs/features/feature-">
+</details>

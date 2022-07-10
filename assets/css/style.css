@@ -365,7 +365,7 @@ label {
     cursor: pointer;
 }
 
-/* 404 Page Styling */
+/* 404 Page Styling 
 #error-container {
     display: flex;
     justify-content: center;
@@ -374,11 +374,18 @@ label {
     padding: 1rem;
     margin: 0 auto;
 }
+*/
+#error-container {
+    display: flex;
+    max-width: 60rem;
+    padding: 1rem;
+    margin: 0 auto;
+    clear: both;
+}
 
 #error-image {
     width: 100%;
 }
-
 /*
 #error-image {
     height: 500px;
