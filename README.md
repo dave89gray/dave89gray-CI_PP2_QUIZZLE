@@ -44,27 +44,74 @@
 Quizzle is a fun game that aims to bring the user some happiness. The aim is to also educate the user about Scotland while they are having fun.
 
 ### User Goals
-- Have fun while playing a quiz game
-- Learn more about Scotland as a nation
+- Have fun while playing a quiz game.
+- Learn more about Scotland as a nation.
 
 ### Site Owner Goals
-- Create a game that the user will find entertaining and fun
-- Educate the user about Scotland as a nation
+- Create a game that the user will find entertaining and fun.
+- Educate the user about Scotland as a nation.
 
 ## User Experience
 
 ### Target Audience
-- People who like quizes
-- Historians
-- People who want to learn more about Scotland
+- People who like quizes.
+- Historians.
+- People who want to learn more about Scotland.
 
 ### User Requirements and Expectations
-- A simple game that's easy to play
-- Links and functions that work as standard
-- Presentation that refernces Scotaland
-- A simple layout that is easy to use and navigate through
-- An easy method to leave feedback
-- Accessibility
+- A simple game that's easy to play.
+- Links and functions that work as standard.
+- Presentation that refernces Scotaland.
+- A simple layout that is easy to use and navigate through.
+- An easy method to leave feedback.
+- Accessibility.
 
 ### User Stories
-- 
+1. As a user, I want to test my knowledge of Scotland in a quiz.
+2. As a user, I want to be notified if my chosen answer is correct or incorrect.
+3. As a user, i want to be able to log my score and my name.
+4. As a user, I want to see how my score compares to others.
+5. As a user, I want to be able to give feedback and get confirmation it was sucessfully delivered.
+
+### Site Owner Stories
+6. As a site owner, i want users to be able to give us feedback and make suggestions about future questions.
+7. As a site owner, I want users to be able to locate us on our social media platforms.
+
+## Design
+
+### Design Choices
+Quizzle was designed to be proud and loud about the country Scotland. With the consistent theme of the Scotland flags, colours and references to haggis, this is supposed to leave the user feeling positive about Scotland.
+
+### Colour
+The colour palette of the website was chose to match the colours of the Saltire (the Scottish flag). A black colour was used on the Contact Us page so as to improve contrast and make it easier to read.
+
+### Fonts
+Arial has been chosen as the main font throughout the website so as to reduce the chances of it not functioning properly on a browser while still presenting nicely. Helvetica and sans-serif are used as back up in case Arial fails.
+
+### Structure
+The website is structured in an easy-on-the-eye way with a simple layout that is easy for the user to navigate through. The user shall find 4 different pages within the website:
+
+- A homepage with features to navigate to different areas:
+    - To the game page.
+    - To the Leaderboard.
+    - To the Contact-us page.
+    - To the social media pages
+- The game page.
+- The results page.
+- The leaderboard page.
+- The Contact Us page.
+
+### Wireframes
+
+<details><summary>Home Page</summary>
+<img src="assets/docs/wireframes/index.png">
+</details>
+<details><summary>Game Page</summary>
+<img src="">
+</details>
+<details><summary>Results Page</summary>
+<img src="">
+</details>
+<details><summary>Leaderboard Page</summary>
+<img src="">
+</details>
