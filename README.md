@@ -198,23 +198,25 @@ This site contains 6 pages and 9 features.
 <img src="assets/docs/features/feature-leaderboard.png">
 </details>
 
-###
-- 
+### Contact Form
+- This provides the user with a way to give feedback or make suggestions
+- User stories covered: 7, 8
 
-<details><summary></summary>
-<img src="assets/docs/features/feature-">
+<details><summary>Contact Form</summary>
+<img src="assets/docs/features/feature-form">
 </details>
 
-###
-- 
+### Contact Form Confirmation
+- This provides the user with feedback after the form has been submitted
+- User story 7
 
-<details><summary></summary>
-<img src="assets/docs/features/feature-">
+<details><summary>Contact Form Confirmation</summary>
+<img src="assets/docs/features/feature-feedback.png">
 </details>
 
-###
-- 
+### 404 Message
+- This provides the user with a way to return to the game after clicking on a broken link
 
-<details><summary></summary>
-<img src="assets/docs/features/feature-">
+<details><summary>404 Message</summary>
+<img src="assets/docs/features/feature-404.png">
 </details>

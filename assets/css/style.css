@@ -376,9 +376,9 @@ label {
 }
 
 #error-image {
-    height: 300px;
-    width: 300px;
-    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
 
@@ -386,6 +386,12 @@ label {
 #feedback {
     background-color: #FBF7F5;
     margin: 0;
+}
+
+.flag-image {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
 /* Media Queuries for tablet screen size 1024px and down */
@@ -417,6 +423,10 @@ label {
     #error-container .home-button {
         width: 10rem;
     }
+
+    .contact-container {
+        width: 80vh;
+    }
 }
 
 /* For mobile devices size 480px and down */
@@ -434,7 +444,7 @@ label {
     footer li {
         margin: 10%;
     }
-    
+
     footer i {
         font-size: 150%;
         color: #1b1c1c;
@@ -444,7 +454,7 @@ label {
     .foot-social {
         margin-left: 0.5rem;
     }
-    
+
     .foot-contact {
         margin-left: 1rem;
     }
@@ -469,8 +479,12 @@ label {
     .answer-options {
         width: 80%;
     }
-    
+
     #error-image {
         width: 300px;
+    }
+
+    .contact-container {
+        width: 50vh;
     }
 }
