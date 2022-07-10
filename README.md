@@ -457,6 +457,17 @@ You can fork the repository by following these steps:
 5. Load the EmailJS SDK in the head of your HTML file
 6. In JavaScript create a function that listens to a submit event and then initializes the SDK with your user id (emailjs.init('YOUR_USER_ID');) and submits the form (emailjs.sendForm('contact_service', 'contact_form', this);)
 
+## Credits
+### Code
+- I followed Learn to Code guidance on building the game [Building Quiz App with HTML, CSS and JavaScript](https://www.youtube.com/watch?v=icb9AUBeznQ)
+- I followed MDN web Docs for more information regarding Template Literals [Template literals (Template strings)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+- I followed Sitepoin on more understanding on rem values [Rem in CSS: Understanding and Using rem Units](https://www.sitepoint.com/understanding-and-using-rem-units-in-css/)
+- I followed Thoughbot for more inforamtion on transitions and transform [CSS Transitions and Transforms for Beginners](https://thoughtbot.com/blog/transitions-and-transforms)
+- I followed emailJs tutorials to get the email sending Javascript API from the official website[EmailJS](https://www.emailjs.com/docs/tutorial/overview/)
+- I used the layout of my first coding projects README file to help with this one
+
+
+### Media
 In order of appearance:
 - [Saltire Flag](assets/images/background_image.jpeg): Photo by <a href="https://www.istockphoto.com/photo/flag-of-scotland-gm504562675-44394806">Popartic</a> at <a href=https://www.istockphoto.com/portfolio/Popartic?mediatype=photography">Istock Images</a>
 - [Royal Banner](assets/images/feedback_img.jpg): Photo by <a href="https://blogs.glowscotland.org.uk/wl/public/StoneyburnP7/uploads/sites/938/2012/02/haggis2.jpg">Sporran</a> at <a href="https://www.istockphoto.com/nl/portfolio/Sporran?mediatype=photography">Istock Images</a>

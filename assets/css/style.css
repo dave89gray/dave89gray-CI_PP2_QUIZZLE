@@ -370,13 +370,13 @@ label {
     clear: both;
     width: 500px;
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 #error-image {
     height: 100%;
     width: 100%;
-    margin: 0 auto;
-    clear: both;
 }
 
 
