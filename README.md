@@ -472,3 +472,9 @@ In order of appearance:
 - [Saltire Flag](assets/images/background_image.jpeg): Photo by <a href="https://www.istockphoto.com/photo/flag-of-scotland-gm504562675-44394806">Popartic</a> at <a href=https://www.istockphoto.com/portfolio/Popartic?mediatype=photography">Istock Images</a>
 - [Royal Banner](assets/images/feedback_img.jpg): Photo by <a href="https://blogs.glowscotland.org.uk/wl/public/StoneyburnP7/uploads/sites/938/2012/02/haggis2.jpg">Sporran</a> at <a href="https://www.istockphoto.com/nl/portfolio/Sporran?mediatype=photography">Istock Images</a>
 - [Haggis Cartoon](assets/images/404_image.jpeg): Photo by <a href="https://www.istockphoto.com/photo/flag-of-scotland-gm504562675-44394806">Mrs Robley</a> at <a href="https://blogs.glowscotland.org.uk/wl/StoneyburnP7/2012/02/03/address-to-a-haggis/">Stoneyburn P7</a>
+
+
+## Acknowledgements
+I would like to take this opportunity to thank:
+- My mentor Mo Shami for his encourgement, guidance, patience and support.
+- The tutor support at Code Institute, whose help and guidance was invaluable.
