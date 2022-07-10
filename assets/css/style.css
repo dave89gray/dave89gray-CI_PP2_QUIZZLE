@@ -414,5 +414,51 @@ label {
 /* For mobile devices size 480px and down */
 
 @media screen and (max-width: 480px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .game-container {
+        height: 600px;
+        max-width: 100%;
+    }
+
+    footer li {
+        margin: 10%;
+    }
     
+    footer i {
+        font-size: 150%;
+        color: #1b1c1c;
+        padding-top: 2rem;
+    }
+
+    .foot-social {
+        margin-left: 0.5rem;
+    }
+    
+    .foot-contact {
+        margin-left: 1rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #return-button {
+        width: 40%;
+        margin-left: 20%;
+    }
+
+    #progress {
+        width: 10rem;
+        border: 0.25rem solid #005EB8;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+    }
+
+    .answer-options {
+        width: 80%;
+    }
 }
