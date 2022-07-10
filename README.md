@@ -457,3 +457,7 @@ You can fork the repository by following these steps:
 5. Load the EmailJS SDK in the head of your HTML file
 6. In JavaScript create a function that listens to a submit event and then initializes the SDK with your user id (emailjs.init('YOUR_USER_ID');) and submits the form (emailjs.sendForm('contact_service', 'contact_form', this);)
 
+In order of appearance:
+- [Saltire Flag](assets/images/background_image.jpeg): Photo by <a href="https://www.istockphoto.com/photo/flag-of-scotland-gm504562675-44394806">Popartic</a> at <a href=https://www.istockphoto.com/portfolio/Popartic?mediatype=photography">Istock Images</a>
+- [Royal Banner](assets/images/feedback_img.jpg): Photo by <a href="https://blogs.glowscotland.org.uk/wl/public/StoneyburnP7/uploads/sites/938/2012/02/haggis2.jpg">Sporran</a> at <a href="https://www.istockphoto.com/nl/portfolio/Sporran?mediatype=photography">Istock Images</a>
+- [Haggis Cartoon](assets/images/404_image.jpeg): Photo by <a href="https://www.istockphoto.com/photo/flag-of-scotland-gm504562675-44394806">Mrs Robley</a> at <a href="https://blogs.glowscotland.org.uk/wl/StoneyburnP7/2012/02/03/address-to-a-haggis/">Stoneyburn P7</a>

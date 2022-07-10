@@ -368,6 +368,8 @@ label {
 #error-container {
     margin: 0 auto;
     clear: both;
+    width: 500px;
+    position: relative;
 }
 
 #error-image {
