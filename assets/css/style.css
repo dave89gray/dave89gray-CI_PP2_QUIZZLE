@@ -409,6 +409,11 @@ label {
     .answer-options {
         width: 70%;
     }
+
+    #progress {
+        width: 15rem;
+        margin-right: 3rem;
+    }
 }
 
 /* For mobile devices size 480px and down */
