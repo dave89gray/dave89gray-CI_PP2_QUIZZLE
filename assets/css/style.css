@@ -379,6 +379,11 @@ label {
     width: 100%;
 }
 
+#haggis-image {
+    margin: 0 auto;
+    clear: both;
+}
+
 .error-button {
     font-size: 1rem;
     padding: 1rem 0 1rem 0;
@@ -430,10 +435,6 @@ label {
     #progress {
         width: 15rem;
         margin-right: 3rem;
-    }
-
-    #error-container a {
-        width: 10rem;
     }
 
     .contact-container {
