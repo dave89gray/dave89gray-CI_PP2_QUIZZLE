@@ -71,7 +71,7 @@ Quizzle is a fun game that aims to bring the user some happiness. The aim is to 
 2. As a user, I want to be notified if my chosen answer is correct or incorrect.
 3. As a user, I want to track my progress as I answer questions.
 4. As a user, I want to see my score as i progress through the quiz.
-5. As a user, i want to be able to log my score and my name.
+5. As a user, i want to be able to log my score and my name to the leaderboard.
 6. As a user, I want to see how my score compares to others.
 7. As a user, I want to be able to give feedback and get confirmation it was sucessfully delivered.
 
@@ -322,8 +322,102 @@ The website was tested on the following browsers:
 
 ### Testing User Stories
 
-
+1. As a user, i want to test my knowledge of Scotland in a quiz.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Navigation menu | Navigate to the Projects page, locate the various examples of work undertaken | Find the examples of the company portfolio | Works as expected |
+
+<details><summary>User Story 1</summary>
+<img src="assets/docs/user-story-telling/user-story-1.png">
+</details>
+
+2. As a user, i want to be notified if my chosen answer is correct or incorrect.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation menu | Navigate to the Projects page, locate the various examples of work undertaken | Find the examples of the company portfolio | Works as expected |
+
+<details><summary>User Story 2</summary>
+<img src="assets/docs/user-story-telling/user-story-2.png">
+</details>
+
+3. As a user, i want to track my progress as i answer the questions.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation menu | Navigate to the Projects page, locate the various examples of work undertaken | Find the examples of the company portfolio | Works as expected |
+
+<details><summary>User Story 3</summary>
+<img src="assets/docs/user-story-telling/user-story-3.png">
+</details>
+
+4. As a user, i want to see my score as i progress through the quiz.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation menu | Navigate to the Projects page, locate the various examples of work undertaken | Find the examples of the company portfolio | Works as expected |
+
+<details><summary>User Story 4</summary>
+<img src="assets/docs/user-story-telling/user-story-4.png">
+</details>
+
+5. As a user, i want to be able to log my score and name to the leaderboard.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation menu | Navigate to the Projects page, locate the various examples of work undertaken | Find the examples of the company portfolio | Works as expected |
+
+<details><summary>User Story 5</summary>
+<img src="assets/docs/user-story-telling/user-story-5.png">
+</details>
+
+6. As a user, i want to see how my score compares with others.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation menu | Navigate to the Projects page, locate the various examples of work undertaken | Find the examples of the company portfolio | Works as expected |
+
+<details><summary>User Story 6</summary>
+<img src="assets/docs/user-story-telling/user-story-6.png">
+</details>
+
+7. As a user, i want to be able to give feedback and get confirmation is was successfully delivered.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation menu | Navigate to the Projects page, locate the various examples of work undertaken | Find the examples of the company portfolio | Works as expected |
+
+<details><summary>User Story 7</summary>
+<img src="assets/docs/user-story-telling/user-story-7.png">
+</details>
+
+8. As a site owner, i want users to be able to give us feedback and make suggestions about future quizes.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation menu | Navigate to the Projects page, locate the various examples of work undertaken | Find the examples of the company portfolio | Works as expected |
+
+<details><summary>User Story 8</summary>
+<img src="assets/docs/user-story-telling/user-story-8.png">
+</details>
+
+9. As a site owner, i want users to be able to locate us on our social media playforms.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation menu | Navigate to the Projects page, locate the various examples of work undertaken | Find the examples of the company portfolio | Works as expected |
+
+<details><summary>User Story 9</summary>
+<img src="assets/docs/user-story-telling/user-story-9.png">
+</details>
+
+10. As a site owner, i want users to be able to navigate the site easily.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation menu | Navigate to the Projects page, locate the various examples of work undertaken | Find the examples of the company portfolio | Works as expected |
+
+<details><summary>User Story 10</summary>
+<img src="assets/docs/user-story-telling/user-story-10.png">
+</details>

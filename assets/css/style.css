@@ -372,12 +372,15 @@ label {
     max-width: 60rem;
     padding: 1rem;
     margin: 0 auto;
+    clear: both;
 }
 
 #error-image {
     height: 100%;
     width: 100%;
     object-fit: contain;
+    margin: 0 auto;
+    clear: both;
 }
 
 
@@ -389,8 +392,8 @@ label {
 }
 
 .flag-image {
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: 80%;
     object-fit: contain;
 }
 
