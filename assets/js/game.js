@@ -164,7 +164,11 @@ newQuestions = () => {
         localStorage.setItem('recentScore', score);
 
         //take the user to the results html page
-        return window.location.href("/dave89gray-CI_PP2_QUIZZLE/results.html");
+        //return window.location.href("/dave89gray-CI_PP2_QUIZZLE/results.html");
+        return window.location.href = window.location.href.includes("github") ?
+            '/dave89gray-CI_PP2_QUIZZLE/result.html' :
+            '/result.html';
+
     }
 
     questionCounter++;
