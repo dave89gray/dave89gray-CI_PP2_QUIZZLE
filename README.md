@@ -86,7 +86,7 @@ Quizzle is a fun game that aims to bring the user some happiness. The aim is to 
 Quizzle was designed to be proud and loud about the country Scotland. With the consistent theme of the Scotland flags, colours and references to haggis, this is supposed to leave the user feeling positive about Scotland.
 
 ### Colour
-The colour palette of the website was chose to match the colours of the Saltire (the Scottish flag). A black colour was used on the Contact Us page so as to improve contrast and make it easier to read.
+The colours of the website were chosen to match the colours of the Saltire (the Scottish flag), #FBF7F5 and #005EB8 respectively. A black colour was used on the Contact Us page so as to improve contrast and make it easier to read.
 
 ### Fonts
 Arial has been chosen as the main font throughout the website so as to reduce the chances of it not functioning properly on a browser while still presenting nicely. Helvetica and sans-serif are used as back up in case Arial fails.
@@ -176,7 +176,7 @@ This site contains 6 pages and 9 features.
     - The score counter
 - User stories covered: 1, 2, 3 & 4
 
-<details><summary>Quiz Screen</summary>
+<details><summary>Game Screen</summary>
 <img src="assets/docs/features/feature-game.png">
 </details>
 
@@ -219,4 +219,67 @@ This site contains 6 pages and 9 features.
 
 <details><summary>404 Message</summary>
 <img src="assets/docs/features/feature-404.png">
+</details>
+
+## Validation
+
+### HTML Validation
+The W3C Markup Validation service was used to verify the HTML of the website. All pages passed with no errors:
+<details><summary>Home Page</summary>
+<img src="assets/docs/features/validation/html-validation-index.png">
+</details>
+<details><summary>Game Page</summary>
+<img src="assets/docs/features/validation/html-validation-game.png">
+</details>
+<details><summary>Results Page</summary>
+<img src="assets/docs/features/validation/html-validation-results.png">
+</details>
+<details><summary>Leaderboard Page</summary>
+<img src="assets/docs/features/validation/html-validation-leaderboard.png">
+</details>
+<details><summary>Contact Us Page</summary>
+<img src="assets/docs/features/validation/html-validation-contact-us.png">
+</details>
+
+### CSS Validation
+The W3C Jigsaw Validation Service was used to validate the CSS of the website. The CSS passed with no errors.
+<details><summary>Whole Page</summary>
+<img src="assets/docs/features/validation/css-validation-whole-page.png">
+</details>
+
+### Javascript Validation
+JSHint Static Code tool was used to validate the Javascrip code from the website. There were no major errors highlighted.
+<details><summary>Game Javascript</summary>
+<img src="assets/docs/features/validation/js-validation-game-p1">
+</details>
+<details><summary>Game Javascript</summary>
+<img src="assets/docs/features/validation/js-validation-game-p2">
+</details>
+<details><summary>Results Javascript</summary>
+<img src="assets/docs/features/validation/js-validation-results">
+</details>
+<details><summary>leaderboard Javascript</summary>
+<img src="assets/docs/features/validation/js-validation-leaderboard">
+</details>
+<details><summary>Contact Us Javascript</summary>
+<img src="assets/docs/features/validation/js-validation-contact-us">
+</details>
+
+### Accessibility
+The WAVE WebAIm evaluation tool was used to ensure the website has high accessibiliy standards. There were 2 errors highlighted on the results page, however the H2 must be empty as it is dynamically filled in and the form has a button instead of a label.
+
+<details><summary>Home Accessibility</summary>
+<img src="assets/docs/features/validation/accessibility-evaluation-index.png">
+</details>
+<details><summary>Game Accessibility</summary>
+<img src="assets/docs/features/validation/accessibility-evaluation-game.png">
+</details>
+<details><summary>Reults Accessibility</summary>
+<img src="assets/docs/features/validation/accessibility-evaluation-results.png">
+</details>
+<details><summary>leaderboard Accessibility</summary>
+<img src="assets/docs/features/validation/accessibility-evaluation-leaderboard.png">
+</details>
+<details><summary>Contact Us Accessibility</summary>
+<img src="assets/docs/features/validation/accessibility-evaluation-contact-us.png">
 </details>
