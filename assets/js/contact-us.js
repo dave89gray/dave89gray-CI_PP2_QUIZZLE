@@ -23,12 +23,11 @@ document.addEventListener('DOMContentLoaded', function () {
  */
 function thankYouMessage() {
     let html = `
-    <h4 class"flex-center flex-column">Thank you for leaving us your feedback</h4>
+    
     <div class="feedback_container flex-center flex-column">
+    <h4 id="feedback" class"flex-center flex-column">Thank you for leaving us your feedback</h4>
         <img src="assets/images/feedback_img.jpeg" alt="The Royal Banner of Scotland flag">
-    </div>
-    <div>
-        <a href="index.html" class="home-button flex-center flex-column">return to Home!</a>
+        <a href="index.html" class="home-button">Return to Home!</a>
     </div>`;
     document.getElementById("contactUs").innerHTML = html;
 }
