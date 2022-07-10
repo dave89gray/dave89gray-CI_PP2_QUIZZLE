@@ -150,7 +150,7 @@ playGame = () => {
     score = 0; //set the score
     availableQuestions = [...questions]; //Spread operator to get the questions
     newQuestions();
-}
+};
 
 /**
  * Function to go to next question
@@ -193,7 +193,7 @@ newQuestions = () => {
 
     availableQuestions.splice(questionIndex, 1);
     acceptAnswer = true;
-}
+};
 
 /**
  * Function so that when the user has selected the answer, 'click' is listened for,
