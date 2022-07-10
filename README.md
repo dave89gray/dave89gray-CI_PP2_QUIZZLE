@@ -428,3 +428,32 @@ The website was tested on the following browsers:
 <details><summary>User Story 10</summary>
 <img src="assets/docs/user-story-telling/user-story-1.png">
 </details>
+
+## Bugs
+
+| **Bug** | **Fix** |
+| ----------- | ----------- |
+| The game wouldnt transfer directly to the results page | Fix lines 168 - 170 of game.js |
+| Fix the submit button at the bottomm of the contact us form | Change the wifth to match the form |
+| There were some undefined variable in the Javascript files | name each variable correctly by adding a "const" |
+| The feedback html would not show centered on the page | Add CSS styling so that it is now centered |
+
+## Deployment
+The website was deployed using GitHub Pages by following these steps:
+1. In the GitHub repository navigate to the Settings tab
+2. On the left-hand menu select Pages
+3. For the source select Branch: master
+4. After the webpage refreshes automatically you will ses a ribbon on the top saying: "Your site is published at https://dave89gray.github.io/dave89gray-CI_PP2_QUIZZLE/".
+
+You can fork the repository by following these steps:
+1. Go to the GitHub repository
+2. Click on Fork button in the upper right hand corner
+
+### EmailJS API
+1. Create an account at emailjs.com
+2. Add new email service, make note of the contact_service id
+3. Add a new email template, make note of the contact_form id
+4. Go the the integration dashboard, make note of your user id
+5. Load the EmailJS SDK in the head of your HTML file
+6. In JavaScript create a function that listens to a submit event and then initializes the SDK with your user id (emailjs.init('YOUR_USER_ID');) and submits the form (emailjs.sendForm('contact_service', 'contact_form', this);)
+

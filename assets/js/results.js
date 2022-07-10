@@ -40,6 +40,4 @@ const saveScore = (e) => {
     // Update the storage with the higher scores using stringify to make the string an array
     localStorage.setItem('scoresLeaderboard', JSON.stringify(scoresLeaderboard));
 
-    // Return home when user score is logged
-    window.location.assign("/");
 };
