@@ -164,7 +164,7 @@ newQuestions = () => {
         localStorage.setItem('recentScore', score);
 
         //take the user to the results html page
-        return window.location.assign("/result.html");
+        return window.location.href("/dave89gray-CI_PP2_QUIZZLE/results.html");
     }
 
     questionCounter++;
@@ -232,5 +232,3 @@ incrementScore = num => {
     score += num;
     scoreNumber.innerText = score;
 };
-
-//playGame();
